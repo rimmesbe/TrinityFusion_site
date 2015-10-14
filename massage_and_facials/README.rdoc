@@ -4,6 +4,7 @@ private contract for small  business site.
 
 Responsive design,
 Rails backend,
+testing github
 
 
 Please feel free to use a different markup language if you do not plan to run
