@@ -3,3 +3,18 @@
   max-width: 100%;
   background-color: black;
 }
+
+#main-img-div {
+  margin: 0%;
+  max-width: 100%;
+  background-color: grey;
+}
+
+#main-img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0px;
+}
