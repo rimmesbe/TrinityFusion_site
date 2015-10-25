@@ -1,3 +1,7 @@
+ul{
+    list-style-position: inside;
+}
+
 /* countering foundation padding */
 body.f-topbar-fixed {
   padding: 0px;
@@ -18,6 +22,24 @@ body.f-topbar-fixed {
 
 .center-text {
   text-align: center;
+}
+
+.section-margins {
+  margin-bottom: 20px;
+}
+
+.section-img {
+  border-radius: 20%;
+}
+
+.margin-left {
+  max-width: 90%;
+  margin-left: 10%;
+  margin-right: 0px;
+}
+
+.margin-top {
+  margin-top: 20px;
 }
 
 #main-img-div {
@@ -42,4 +64,9 @@ body.f-topbar-fixed {
 #special-p {
   padding: 10px;
   line-height: 2;
+}
+
+#party-panel-left {
+  padding-left: 20px;
+  padding-right: 20px;
 }
