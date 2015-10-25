@@ -1,3 +1,7 @@
+ul{
+    list-style-position: inside;
+}
+
 /* countering foundation padding */
 body.f-topbar-fixed {
   padding: 0px;
@@ -24,6 +28,20 @@ body.f-topbar-fixed {
   margin-bottom: 20px;
 }
 
+.section-img {
+  border-radius: 20%;
+}
+
+.margin-left {
+  max-width: 90%;
+  margin-left: 10%;
+  margin-right: 0px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;
@@ -48,6 +66,7 @@ body.f-topbar-fixed {
   line-height: 2;
 }
 
-#facial-mask {
-  border-radius: 20%;
+#party-panel-left {
+  padding-left: 20px;
+  padding-right: 20px;
 }
