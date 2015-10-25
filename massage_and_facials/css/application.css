@@ -20,6 +20,10 @@ body.f-topbar-fixed {
   text-align: center;
 }
 
+.section-margins {
+  margin-bottom: 20px;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;
@@ -42,4 +46,8 @@ body.f-topbar-fixed {
 #special-p {
   padding: 10px;
   line-height: 2;
+}
+
+#facial-mask {
+  border-radius: 20%;
 }
