@@ -42,6 +42,11 @@ body.f-topbar-fixed {
   margin-top: 20px;
 }
 
+a.button.border-button {
+  background-color: #f2f2f2;
+  border: 1px solid #d8d8d8;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;
