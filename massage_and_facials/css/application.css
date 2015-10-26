@@ -38,6 +38,12 @@ body.f-topbar-fixed {
   margin-right: 0px;
 }
 
+.margin-right {
+  max-width: 90%;
+  margin-right: 10%;
+  margin-left: 0px;
+}
+
 .margin-top {
   margin-top: 20px;
 }
