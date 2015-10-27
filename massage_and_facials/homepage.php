@@ -9,6 +9,41 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('contactForm').validate({
+          rules: {
+            email: {
+              required: true,
+              email: true
+            },
+            subject: {
+              required: true,
+              minlength: 2
+            },
+            message: {
+              required, true,
+              minlength: 10
+            }
+          },
+          messages: {
+            email: {
+              required: "Please enter your email",
+              email: "Must be valid email address"
+            },
+            subject: {
+              required: "Please enter a subject",
+              minlength: "Subject is too short"
+            },
+            message: {
+              required: "Please enter a message",
+              minlength: "Message too short"
+            }
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="fixed">
@@ -359,6 +394,13 @@
       </div>
     </div>
     <hr />
+
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <h2 class="center-text">Contact</h2>
+        <p>Redbird8@gmail.com</p>
+      </div>
+    </div>
 
     <script>
       $(document).foundation();
