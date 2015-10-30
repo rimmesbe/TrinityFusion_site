@@ -448,7 +448,16 @@
     <hr />
 
     <div class="row">
-      <div class="large-12 medium-12 columns">
+      <div class="large-4 medium-4 columns margin-top">
+        <div class="panel callout radius">
+          <h4 class="center-text">Call:</h4>
+          <p class="center-text"><i>631-287-3527</i></p>
+          <p class="center-text">For more information on Services</p>
+          <p class="center-text">To Schedule an Appointment</p>
+          <p class="center-text">To Order a Gift Certificate</p>
+        </div>
+      </div>
+      <div class="large-8 medium-8 columns">
         <div class="contact-div">
           <h3 class="center-text">Contact</h3>
           <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
@@ -466,7 +475,7 @@
             <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
             <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
             <textarea name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
-            <input type="submit" name="submitform" value="Send">
+            <input type="submit" name="submitform" value="Send" id="form-submit">
           </form>
         </div>
       </div>

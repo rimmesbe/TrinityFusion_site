@@ -97,3 +97,10 @@ a.button.border-button {
   text-align: center;
   color: white;
 }
+
+#form-submit {
+  border-radius: 25%;
+  background-color: green;
+  width: 20%;
+  height: 3em;
+}
