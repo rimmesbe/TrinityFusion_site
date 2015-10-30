@@ -48,6 +48,10 @@ body.f-topbar-fixed {
   margin-top: 20px;
 }
 
+.form-errors {
+  color: red;
+}
+
 a.button.border-button {
   background-color: #f2f2f2;
   border: 1px solid #d8d8d8;
@@ -80,4 +84,23 @@ a.button.border-button {
 #party-panel-left {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#headshot-div {
+  position: relative;
+}
+
+#headshot-h3 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#form-submit {
+  border-radius: 25%;
+  background-color: green;
+  width: 20%;
+  height: 3em;
 }

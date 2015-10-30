@@ -1,3 +1,55 @@
+<?php
+  $sent = false;
+  $hasError = false;
+
+  if(isset($_POST['submitform'])) {
+    $email = trim($_POST['email']);
+    $subject = trim(htmlspecialchars($_POST['subject'], ENT_QUOTES));
+    $message = trim(htmlspecialchars($_POST['message'], ENT_QUOTES));
+
+    $fieldsArray = array(
+      'email' => $email,
+      'subject' => $subject,
+      'message' => $message
+    );
+
+    $errorArray = array();
+
+    foreach($fieldsArray as $key => $val) {
+      switch ($key) {
+        case 'subject':
+        case 'message':
+          if(empty($val)) {
+            $hasError = true;
+            $errorArray[$key] = ucfirst($key) . " field was left empty.";
+          }
+          break;
+        case 'email':
+          if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $hasError = true;
+            $errorArray[$key] = "Invalid Email Address entered";
+          }else{
+            $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+          }
+          break;
+      }
+    }
+    if($hasError !== true) {
+      $to = "ryanimmesberger@gmail.com";
+      $msgcontents = "$message";
+      $headers = "MIME-Version: 1.0 \r\n";
+      $headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
+      $headers .= "From: $email \r\n";
+      $mailsent = mail($to, $subject, $msgcontents, $headers);
+      if($mailsent) {
+        $sent = true;
+        unset($subject);
+        unset($email);
+        unset($message);
+      }
+    }
+  }
+?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -9,6 +61,41 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#contactform').validate({
+          rules: {
+            email: {
+              required: true,
+              email: true
+            },
+            subject: {
+              required: true,
+              minlength: 2
+            },
+            message: {
+              required: true,
+              minlength: 10
+            }
+          },
+          messages: {
+            email: {
+              required: "Please enter your email",
+              email: "Must be valid email address"
+            },
+            subject: {
+              required: "Please enter a subject",
+              minlength: "Subject is too short"
+            },
+            message: {
+              required: "Please enter a message",
+              minlength: "Message too short"
+            }
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="fixed">
@@ -286,8 +373,9 @@
         <p>For a good part of my life I have made my home on the beautiful east end of Long Island, NY, and have traveled all around the US to explore the beauty of this country.</p>
         <p>I live in Naples Florida and spend most of the year there and go back to the Hamptons for the summers. ​I continue to learn and expand my knowledge of therapies to bring you ​the best services out there.​</p>
       </div>
-      <div class="large-4 medium-4 columns margin-top">
+      <div class="large-4 medium-4 columns margin-top" id="headshot-div">
         <img src="img/Headshot_Colleen.png" alt="Colleen Miller" class="section-img">
+        <h3 id="headshot-h3">Colleen Miller</h3>
       </div>
     </div>
     <hr />
@@ -355,6 +443,41 @@
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
         </ul>
+      </div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="large-4 medium-4 columns margin-top">
+        <div class="panel callout radius">
+          <h4 class="center-text">Call:</h4>
+          <p class="center-text"><i>631-287-3527</i></p>
+          <p class="center-text">For more information on Services</p>
+          <p class="center-text">To Schedule an Appointment</p>
+          <p class="center-text">To Order a Gift Certificate</p>
+        </div>
+      </div>
+      <div class="large-8 medium-8 columns">
+        <div class="contact-div">
+          <h3 class="center-text">Contact</h3>
+          <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
+            <?php
+              if($sent === true) {
+                echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
+              }elseif($hasError == true){
+                echo "<ul class='errorList'>";
+                foreach($errorArray as $key => $val){
+                  echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+                }
+                echo "</ul>";
+              }
+            ?>
+            <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
+            <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
+            <textarea name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+            <input type="submit" name="submitform" value="Send" id="form-submit">
+          </form>
+        </div>
       </div>
     </div>
     <hr />
