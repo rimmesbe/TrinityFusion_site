@@ -1,3 +1,55 @@
+<?php
+  $sent = false;
+  $hasError = false;
+
+  if(isset($_POST['submitform'])) {
+    $email = trim($_POST['email']);
+    $subject = trim(htmlspecialchars($_POST['subject'], ENT_QUOTES));
+    $message = trim(htmlspecialchars($_POST['message'], ENT_QUOTES));
+
+    $fieldsArray = array(
+      'email' => $email,
+      'subject' => $subject,
+      'message' => $message
+    );
+
+    $errorArray = array();
+
+    foreach($fieldsArray as $key => $val) {
+      switch ($key) {
+        case 'subject':
+        case 'message':
+          if(empty($val)) {
+            $hasError = true;
+            $errorArray[$key] = ucfirst($key) . " field was left empty.";
+          }
+          break;
+        case 'email':
+          if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $hasError = true;
+            $errorArray[$key] = "Invalid Email Address entered";
+          }else{
+            $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+          }
+          break;
+      }
+    }
+    if($hasError !== true) {
+      $to = "ryanimmesberger@gmail.com";
+      $msgcontents = "$message";
+      $headers = "MIME-Version: 1.0 \r\n";
+      $headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
+      $headers .= "From: $email \r\n";
+      $mailsent = mail($to, $subject, $msgcontents, $headers);
+      if($mailsent) {
+        $sent = true;
+        unset($subject);
+        unset($email);
+        unset($message);
+      }
+    }
+  }
+?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -12,7 +64,7 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
     <script>
       $(document).ready(function(){
-        $('contactForm').validate({
+        $('#contactform').validate({
           rules: {
             email: {
               required: true,
@@ -23,7 +75,7 @@
               minlength: 2
             },
             message: {
-              required, true,
+              required: true,
               minlength: 10
             }
           },
@@ -397,10 +449,29 @@
 
     <div class="row">
       <div class="large-12 medium-12 columns">
-        <h2 class="center-text">Contact</h2>
-        <p>Redbird8@gmail.com</p>
+        <div class="contact-div">
+          <h3 class="center-text">Contact</h3>
+          <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
+            <?php
+              if($sent === true) {
+                echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
+              }elseif($hasError == true){
+                echo "<ul class='errorList'>";
+                foreach($errorArray as $key => $val){
+                  echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+                }
+                echo "</ul>";
+              }
+            ?>
+            <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
+            <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
+            <textarea name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+            <input type="submit" name="submitform" value="Send">
+          </form>
+        </div>
       </div>
     </div>
+    <hr />
 
     <script>
       $(document).foundation();
