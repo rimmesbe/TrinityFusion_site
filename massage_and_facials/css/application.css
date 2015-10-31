@@ -57,6 +57,14 @@ a.button.border-button {
   border: 1px solid #d8d8d8;
 }
 
+.fixed .top-bar .light-purple {
+  color: #D077F6;
+}
+
+.teal-color {
+  color: #14CFB7;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;

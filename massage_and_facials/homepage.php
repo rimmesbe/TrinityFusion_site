@@ -101,30 +101,30 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home">Naples Facial's</a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" class="light-purple">Naples Facial's</a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
         <section class="top-bar-section">
           <ul class="right">
             <li class="has-dropdown">
-              <a href="#" class="tab-text">SERVICES</a>
+              <a href="#" class="tab-text light-purple">SERVICES</a>
               <ul class="dropdown">
                 <li><a href="#massage" class="tab-text">Massages</a></li>
                 <li><a href="#facial" class="tab-text">Facials</a></li>
                 <li><a href="#spa-party" class="tab-text">Spa Party</a></li>
               </ul>
             </li>
-            <li><a href="#schedule">SCHEDULE</a></li>
+            <li><a href="#schedule" class="light-purple">SCHEDULE</a></li>
             <li class="has-dropdown">
-              <a href="#">ABOUT</a>
+              <a href="#" class="light-purple">ABOUT</a>
               <ul class="dropdown">
                 <li><a href="#practitioner" class="tab-text">Practitioner</a></li>
                 <li><a href="#benefits" class="tab-text">Benefits of Massage</a></li>
                 <li><a href="#questions" class="tab-text">Frequently Asked Questions</a></li>
               </ul>
             </li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#contact" class="light-purple">CONTACT</a></li>
           </ul>
         </section>
       </nav>
@@ -139,7 +139,7 @@
     <!-- massage section -->
     <div class="row section-margins" style="margin-top: 20px;" id="massage">
       <div class="large-9 medium-9 columns">
-        <h1>Massage</h1>
+        <h1 class="teal-color">Massage</h1>
         <p>
           All massages are tailored and designed to meet the needs of each individual.<br><br>
           Different modalities can be mixed in each session:<br>
@@ -219,7 +219,7 @@
       </div>
 
       <div class="large-8 medium-8 columns">
-        <h1>Facials</h1>
+        <h1 class="teal-color">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1a">Infuse Antioxidant Glow Facial</a>
@@ -313,7 +313,7 @@
     <!-- spa party section -->
     <div class="row section-margins margin-left" id="spa-party">
       <div class="large-8 medium-8 columns">
-        <h1>Spa Party</h1>
+        <h1 class="teal-color">Spa Party</h1>
         <p>Luxurious spa treatments by experienced therapists for you and your friends to enjoy in the comfort of your home. Prepare to be pampered!</p>
         <p>Hosting a Spa Party is a wonderful way to celebrate special occasions or events. Spa Parties are excellent for: Wellness Gatherings, Girls’ Night Out, Birthdays, Bachelorette/Bridal Parties, Sweet 16, Batzmitvah’s, Introducing Young Ladies to Self-Care, or just for fun!</p>
         <p>You can make the party as simple or elaborate as you like. You can keep your party simple by choosing a few spa party service favorites to comprise a Fixed Menu. Everyone enjoys the same services at the same flat rate. A party planning consultation is required by phone or in person at least 3 weeks prior to reserve a party date and therapists. During this consult we will discuss: Fixed Menu/A La Carte Menu, services and fee structure, and setting up of the space.</p>
@@ -352,7 +352,7 @@
     <!-- schedule section -->
     <div class="row" id="schedule">
       <div class="large-3 medium-3 columns">
-        <h1 class="center-text">Scheduling</h1>
+        <h1 class="center-text teal-color">Scheduling</h1>
         <div class="panel callout">
           <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
           <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
@@ -369,7 +369,7 @@
     <!-- practitioner section -->
     <div class="row" id="practitioner">
       <div class="large-8 medium-8 columns">
-        <h1>The Practitioner</h1>
+        <h1 class="teal-color">The Practitioner</h1>
         <p>Having worked in the Holistic Health field for over 29 years, I bring to you a wellspring of experience working with different modalities. This includes:</p>
         <p>Massage Therapy​, an assortment of ​anti-aging, renewing​ and regenerating Facia​ls,​Energy ​work, chakra balancing​ and my signature thera​pies which​ blend all of the above​ with various scrubs and aromatherapy​.</p>
         <p>For a good part of my life I have made my home on the beautiful east end of Long Island, NY, and have traveled all around the US to explore the beauty of this country.</p>
@@ -387,7 +387,7 @@
         <img src="img/massage_cartoon.jpg" alt="Massage cartoon" class="section-img">
       </div>
       <div class="large-8 medium-8 columns">
-        <h2>Benefits of Massage</h2>
+        <h2 class="teal-color">Benefits of Massage</h2>
         <ul>
           <li>Massage relieves muscle tension, pain and increases joint range-of-motion</li>
           <li>Massage improves blood circulation, lowers blood pressure, opens energy channels, stimulates organs, enhances immunity and detoxifies the body</li>
@@ -401,7 +401,7 @@
     <!-- frequently asked questions section -->
     <div class="row" id="questions">
       <div class="large-12 medium-12 columns">
-        <h2 class="center-text">Frequently Asked Questions</h2>
+        <h2 class="center-text teal-color">Frequently Asked Questions</h2>
         <ul class="stack button-group">
           <li><a href="#" data-reveal-id="question1" class="button">Where will my massage or bodywork session take place?</a></li>
           <div id="question1" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -452,7 +452,7 @@
     <div class="row" id="contact">
       <div class="large-8 medium-8 columns">
         <div class="contact-div">
-          <h1>Contact</h1>
+          <h1 class="teal-color">Contact</h1>
           <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
             <?php
               if($sent === true) {
