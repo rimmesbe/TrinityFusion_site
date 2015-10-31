@@ -351,15 +351,17 @@
     <hr />
     <!-- schedule section -->
     <div class="row">
-      <div class="large-3 medium-3 columns panel callout margin-top">
-        <h2 class="center-text">Scheduling</h2>
-        <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
-        <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
+      <div class="large-3 medium-3 columns">
+        <h1 class="center-text">Scheduling</h1>
+        <div class="panel callout">
+          <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
+          <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
+        </div>
       </div>
       <div class="large-9 medium-9 columns">
-        <h3>Spa Etiquette</h3>
+        <h3 class="margin-top center-text">Spa Etiquette</h3>
         <p>Please respect the tranquility of our spa environment by turning off your cell phone during your visit to maintain a serene ambiance. Also please note that all treatments require the removal of jewelry. We recommend you leave your valuables at home; we are not responsible for lost items.</p>
-        <h3>Gratuities</h3>
+        <h3 class="center-text">Gratuities</h3>
         <p>Gratuities are not included in the price of any service, package or gift certificate (unless stated). For those wishing to show appreciation for a job well done or a service enjoyed, gratuity envelopes are available. <i>We ask that you please bring either cash or check for the gratuity.</i></p>
       </div>
     </div>
@@ -448,18 +450,9 @@
     <hr />
 
     <div class="row">
-      <div class="large-4 medium-4 columns margin-top">
-        <div class="panel callout radius">
-          <h4 class="center-text">Call:</h4>
-          <p class="center-text"><i>631-287-3527</i></p>
-          <p class="center-text">For more information on Services</p>
-          <p class="center-text">To Schedule an Appointment</p>
-          <p class="center-text">To Order a Gift Certificate</p>
-        </div>
-      </div>
       <div class="large-8 medium-8 columns">
         <div class="contact-div">
-          <h3 class="center-text">Contact</h3>
+          <h1>Contact</h1>
           <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
             <?php
               if($sent === true) {
@@ -474,9 +467,27 @@
             ?>
             <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
             <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
-            <textarea name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+            <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
             <input type="submit" name="submitform" value="Send" id="form-submit">
           </form>
+        </div>
+      </div>
+      <div class="large-4 medium-4 columns margin-top">
+        <div class="panel callout radius">
+          <h4 class="center-text">Call:</h4>
+          <p class="center-text"><i>631-287-3527</i></p>
+          <p class="center-text">For more information on Services</p>
+          <p class="center-text">To Schedule an Appointment</p>
+          <p class="center-text">To Order a... </p>
+
+          <a href="#" data-reveal-id="giftModal" class="button radius" id="gift-modal">Gift Certificate</a>
+
+          <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h2 id="modalTitle">Gift Certificates</h2>
+            <p class="lead">Available for all Occations</p>
+            <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+          </div>
         </div>
       </div>
     </div>

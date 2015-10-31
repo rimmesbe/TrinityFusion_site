@@ -104,3 +104,8 @@ a.button.border-button {
   width: 20%;
   height: 3em;
 }
+
+#gift-modal {
+  width: 100%;
+  margin: auto;
+}
