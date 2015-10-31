@@ -107,14 +107,18 @@ a.button.border-button {
   bottom: 0px;
   width: 100%;
   text-align: center;
-  color: white;
+  color: #DD43E8;
 }
 
 #form-submit {
   border-radius: 25%;
-  background-color: green;
+  background-color: #14CFB7;
   width: 20%;
   height: 3em;
+}
+
+#form-submit:hover {
+  background-color: #ACEEE5;
 }
 
 #gift-modal {
@@ -122,4 +126,8 @@ a.button.border-button {
   margin: auto;
   background-color: #14CFB7;
   color: black;
+}
+
+#gift-modal:hover {
+  background-color: #ACEEE5;
 }
