@@ -120,4 +120,6 @@ a.button.border-button {
 #gift-modal {
   width: 100%;
   margin: auto;
+  background-color: #14CFB7;
+  color: black;
 }
