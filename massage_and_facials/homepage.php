@@ -101,7 +101,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#">Naples Facial's</a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home">Naples Facial's</a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -110,34 +110,34 @@
             <li class="has-dropdown">
               <a href="#" class="tab-text">SERVICES</a>
               <ul class="dropdown">
-                <li><a href="#" class="tab-text">Massages</a></li>
-                <li><a href="#" class="tab-text">Facials</a></li>
-                <li><a href="#" class="tab-text">Spa Party</a></li>
+                <li><a href="#massage" class="tab-text">Massages</a></li>
+                <li><a href="#facial" class="tab-text">Facials</a></li>
+                <li><a href="#spa-party" class="tab-text">Spa Party</a></li>
               </ul>
             </li>
-            <li><a href="#">SCHEDULE</a></li>
+            <li><a href="#schedule">SCHEDULE</a></li>
             <li class="has-dropdown">
               <a href="#">ABOUT</a>
               <ul class="dropdown">
-                <li><a href="#" class="tab-text">Practitioner</a></li>
-                <li><a href="#" class="tab-text">Benefits of Massage</a></li>
-                <li><a href="#" class="tab-text">Frequently Asked Questions</a></li>
+                <li><a href="#practitioner" class="tab-text">Practitioner</a></li>
+                <li><a href="#benefits" class="tab-text">Benefits of Massage</a></li>
+                <li><a href="#questions" class="tab-text">Frequently Asked Questions</a></li>
               </ul>
             </li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </section>
       </nav>
     </div>
 
     <!-- Main image display -->
-    <div class="row no-margin">
+    <div class="row no-margin" id="home">
       <div class="large-12 columns no-padding" id="main-img-div">
       </div>
     </div>
 
     <!-- massage section -->
-    <div class="row section-margins" style="margin-top: 20px;">
+    <div class="row section-margins" style="margin-top: 20px;" id="massage">
       <div class="large-9 medium-9 columns">
         <h1>Massage</h1>
         <p>
@@ -203,7 +203,7 @@
     </div>
     <hr />
     <!-- facials section -->
-    <div class="row section-margins">
+    <div class="row section-margins" id="facial">
       <div class="large-4 medium-4 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img">
         <div class="panel callout radius margin-top">
@@ -311,7 +311,7 @@
     </div>
     <hr />
     <!-- spa party section -->
-    <div class="row section-margins margin-left">
+    <div class="row section-margins margin-left" id="spa-party">
       <div class="large-8 medium-8 columns">
         <h1>Spa Party</h1>
         <p>Luxurious spa treatments by experienced therapists for you and your friends to enjoy in the comfort of your home. Prepare to be pampered!</p>
@@ -350,7 +350,7 @@
     </div>
     <hr />
     <!-- schedule section -->
-    <div class="row">
+    <div class="row" id="schedule">
       <div class="large-3 medium-3 columns">
         <h1 class="center-text">Scheduling</h1>
         <div class="panel callout">
@@ -367,7 +367,7 @@
     </div>
     <hr />
     <!-- practitioner section -->
-    <div class="row">
+    <div class="row" id="practitioner">
       <div class="large-8 medium-8 columns">
         <h1>The Practitioner</h1>
         <p>Having worked in the Holistic Health field for over 29 years, I bring to you a wellspring of experience working with different modalities. This includes:</p>
@@ -382,7 +382,7 @@
     </div>
     <hr />
     <!-- benefits of massage section -->
-    <div class="row margin-right">
+    <div class="row margin-right" id="benefits">
       <div class="large-4 medium-4 columns margin-top">
         <img src="img/massage_cartoon.jpg" alt="Massage cartoon" class="section-img">
       </div>
@@ -399,7 +399,7 @@
     </div>
     <hr />
     <!-- frequently asked questions section -->
-    <div class="row">
+    <div class="row" id="questions">
       <div class="large-12 medium-12 columns">
         <h2 class="center-text">Frequently Asked Questions</h2>
         <ul class="stack button-group">
@@ -448,8 +448,8 @@
       </div>
     </div>
     <hr />
-
-    <div class="row">
+    <!-- contact section -->
+    <div class="row" id="contact">
       <div class="large-8 medium-8 columns">
         <div class="contact-div">
           <h1>Contact</h1>
