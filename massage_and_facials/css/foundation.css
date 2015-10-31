@@ -2758,7 +2758,7 @@ meta.foundation-mq-topbar {
     border-color: #d8d8d8;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ecfaff;
+    background: #CE8DD1;
     color: #333333; }
     .panel.callout > :first-child {
       margin-top: 0; }
@@ -3548,14 +3548,14 @@ ul.pagination {
       background: #e8e8e8;
       color: #222222; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #EFEFEF;
+      background: #EAC098;
       color: #222222;
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: #C38E5D; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem;

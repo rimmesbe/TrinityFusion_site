@@ -65,6 +65,10 @@ a.button.border-button {
   color: #14CFB7;
 }
 
+.curved-radius {
+  border-radius: 10%
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;
