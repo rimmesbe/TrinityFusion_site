@@ -450,18 +450,9 @@
     <hr />
 
     <div class="row">
-      <div class="large-4 medium-4 columns margin-top">
-        <div class="panel callout radius">
-          <h4 class="center-text">Call:</h4>
-          <p class="center-text"><i>631-287-3527</i></p>
-          <p class="center-text">For more information on Services</p>
-          <p class="center-text">To Schedule an Appointment</p>
-          <p class="center-text">To Order a Gift Certificate</p>
-        </div>
-      </div>
       <div class="large-8 medium-8 columns">
         <div class="contact-div">
-          <h2 class="center-text">Contact</h2>
+          <h1>Contact</h1>
           <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
             <?php
               if($sent === true) {
@@ -476,9 +467,27 @@
             ?>
             <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
             <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
-            <textarea name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+            <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
             <input type="submit" name="submitform" value="Send" id="form-submit">
           </form>
+        </div>
+      </div>
+      <div class="large-4 medium-4 columns margin-top">
+        <div class="panel callout radius">
+          <h4 class="center-text">Call:</h4>
+          <p class="center-text"><i>631-287-3527</i></p>
+          <p class="center-text">For more information on Services</p>
+          <p class="center-text">To Schedule an Appointment</p>
+          <p class="center-text">To Order a... </p>
+
+          <a href="#" data-reveal-id="giftModal" class="button radius" id="gift-modal">Gift Certificate</a>
+
+          <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h2 id="modalTitle">Gift Certificates</h2>
+            <p class="lead">Available for all Occations</p>
+            <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+          </div>
         </div>
       </div>
     </div>
