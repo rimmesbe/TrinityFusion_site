@@ -3545,17 +3545,17 @@ ul.pagination {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #e8e8e8;
+      background: #CE8DD1;
       color: #222222; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #EAC098;
+      background: #BFF2EB;
       color: #222222;
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #C38E5D; }
+        background: #14CFB7; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem;

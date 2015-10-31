@@ -65,8 +65,8 @@ a.button.border-button {
   color: #14CFB7;
 }
 
-.curved-radius {
-  border-radius: 10%
+.light-purple{
+  background-color: #DCB7DE;
 }
 
 #main-img-div {
@@ -86,6 +86,7 @@ a.button.border-button {
   display:flex;
   align-items: center;
   justify-content: center;
+  color: #DCB7DE;
 }
 
 #special-p {
@@ -130,4 +131,8 @@ a.button.border-button {
 
 #gift-modal:hover {
   background-color: #ACEEE5;
+}
+
+#home-color {
+  color: #D077F6;
 }

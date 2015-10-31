@@ -101,7 +101,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" class="light-purple">Naples Facial's</a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color">Naples Facial's</a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -225,10 +225,10 @@
             <a href="#panel1a">Infuse Antioxidant Glow Facial</a>
             <div id="panel1a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>An infusion of vitamin E with Omega-3 fatty acids for regeneration, hydration and removal of toxins from the epidermis. This highly nourishing treatment includes face, décolleté, neck and shoulder massage, cleansing, liquid enzyme peel, antioxidant serum with grape seed mask and eye revitalize cream for glowing skin.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$125 or Package of 4 for $420</p>
                 </div>
@@ -239,11 +239,11 @@
             <a href="#panel2a">Signature Anti-Aging Facial with High Frequency</a>
             <div id="panel2a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Improve skin's elasticity and collagen production, decrease fine lines and prevent appearance of new ones. Includes face, décolleté, neck and shoulder massage, cleanse, lactic acid peel, amino peptide serum with mask, eye lifting cream and high frequency machine for toning and lifting.
                   </p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$140 or Package of 4 for $500</p>
                 </div>
@@ -254,10 +254,10 @@
             <a href="#panel3a">Corrective Facial for Mature Skin</a>
             <div id="panel3a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Refresh and Renew the skin using a double infusion of emulsion and skin brightening enzyme to increase oxygen and blood flow to depleted dry skin, reducing pigmentation and brightening skin. Includes face, décolleté, neck and shoulder massage, cleansing, emulsion and enzyme, vit-C serum with honey mask, finishing with brightening cream and sun protection. Good for mature skin, hyper pigmentation and acne/oily skin types.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$110 or Package of 4 for $380</p>
                 </div>
@@ -268,10 +268,10 @@
             <a href="#panel4a">Rehydration Facial</a>
             <div id="panel4a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>An ultimate remedy for thirsty, moisture-starved skin. This intensive treatment will leave you dewy and renewed, and includes a gentle milk cleanse, enzyme mask ,hydrating grape seed serum, milk mask, facial massage and sun protection. Your skin will never have felt so good.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$100 or Package of 4 for $360</p>
                 </div>
@@ -282,10 +282,10 @@
             <a href="#panel5a">Retexture (Exfoliation)</a>
             <div id="panel5a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>A thorough facial that is designed to smooth and brighten. It includes cleanse,derma peel exfoliation, steam, extractions, cherry jubilee masque treatment, hydration and sun protection. Leaves you with baby soft skin!</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$110 or Package of 4 for $400</p>
                 </div>
@@ -296,10 +296,10 @@
             <a href="#panel6a">Restorative Skin Back Treatment</a>
             <div id="panel6a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$90</p>
                 </div>
