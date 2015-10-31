@@ -451,25 +451,27 @@
     <!-- contact section -->
     <div class="row" id="contact">
       <div class="large-8 medium-8 columns">
-        <div class="contact-div">
-          <h1 class="teal-color">Contact</h1>
-          <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
-            <?php
-              if($sent === true) {
-                echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
-              }elseif($hasError == true){
-                echo "<ul class='errorList'>";
-                foreach($errorArray as $key => $val){
-                  echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+        <h1 class="teal-color">Contact</h1>
+        <div id="shadow-form">
+          <div class="contact-div" style="margin: 1em;">
+            <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
+              <?php
+                if($sent === true) {
+                  echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
+                }elseif($hasError == true){
+                  echo "<ul class='errorList'>";
+                  foreach($errorArray as $key => $val){
+                    echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+                  }
+                  echo "</ul>";
                 }
-                echo "</ul>";
-              }
-            ?>
-            <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
-            <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
-            <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
-            <input type="submit" name="submitform" value="Send" id="form-submit">
-          </form>
+              ?>
+              <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
+              <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
+              <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+              <input type="submit" name="submitform" value="Send" id="form-submit">
+            </form>
+          </div> <!-- contact div -->
         </div>
       </div>
       <div class="large-4 medium-4 columns margin-top">
