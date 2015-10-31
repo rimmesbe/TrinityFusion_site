@@ -351,15 +351,17 @@
     <hr />
     <!-- schedule section -->
     <div class="row">
-      <div class="large-3 medium-3 columns panel callout margin-top">
-        <h2 class="center-text">Scheduling</h2>
-        <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
-        <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
+      <div class="large-3 medium-3 columns">
+        <h1 class="center-text">Scheduling</h1>
+        <div class="panel callout">
+          <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
+          <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
+        </div>
       </div>
       <div class="large-9 medium-9 columns">
-        <h3>Spa Etiquette</h3>
+        <h3 class="margin-top center-text">Spa Etiquette</h3>
         <p>Please respect the tranquility of our spa environment by turning off your cell phone during your visit to maintain a serene ambiance. Also please note that all treatments require the removal of jewelry. We recommend you leave your valuables at home; we are not responsible for lost items.</p>
-        <h3>Gratuities</h3>
+        <h3 class="center-text">Gratuities</h3>
         <p>Gratuities are not included in the price of any service, package or gift certificate (unless stated). For those wishing to show appreciation for a job well done or a service enjoyed, gratuity envelopes are available. <i>We ask that you please bring either cash or check for the gratuity.</i></p>
       </div>
     </div>
@@ -459,7 +461,7 @@
       </div>
       <div class="large-8 medium-8 columns">
         <div class="contact-div">
-          <h3 class="center-text">Contact</h3>
+          <h2 class="center-text">Contact</h2>
           <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
             <?php
               if($sent === true) {
