@@ -177,7 +177,7 @@
             <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $120.00 <br> 80 minutes: $170.00"><strong>House Call Rates</strong></span></h5>
           </div>
           <div class="large-6 medium-6 columns">
-            <a href="#" data-reveal-id="policyModal" class="medium radius secondary button">Cancelation Policy</a>
+            <a href="#" data-reveal-id="policyModal" class="medium radius secondary button border-button">Cancelation Policy</a>
             <div id="policyModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
               <h2>Cancellation Policy</h2>
               <p>We understand that unanticipated events happen occasionally in everyone’s life. In our desire to be effective and fair to all clients, the following policies are honored: </p>
