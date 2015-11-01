@@ -54,7 +54,25 @@ body.f-topbar-fixed {
 
 a.button.border-button {
   background-color: #f2f2f2;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #93E9DE;
+}
+
+.fixed .top-bar .light-purple {
+  color: #D077F6;
+}
+
+.teal-color {
+  color: #14CFB7;
+}
+
+.light-purple{
+  background-color: #DCB7DE;
+}
+
+.title-text {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
 }
 
 #main-img-div {
@@ -74,6 +92,7 @@ a.button.border-button {
   display:flex;
   align-items: center;
   justify-content: center;
+  color: #DCB7DE;
 }
 
 #special-p {
@@ -95,17 +114,41 @@ a.button.border-button {
   bottom: 0px;
   width: 100%;
   text-align: center;
-  color: white;
+  color: #DD43E8;
 }
 
 #form-submit {
   border-radius: 25%;
-  background-color: green;
+  background-color: #14CFB7;
   width: 20%;
   height: 3em;
+}
+
+#form-submit:hover {
+  background-color: #ACEEE5;
 }
 
 #gift-modal {
   width: 100%;
   margin: auto;
+  background-color: #14CFB7;
+  color: black;
+}
+
+#gift-modal:hover {
+  background-color: #ACEEE5;
+}
+
+#home-color {
+  color: #D077F6;
+}
+
+#shadow-form {
+  border-radius: 1em;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#title-div {
+  margin: 7rem;
 }

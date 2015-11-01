@@ -1161,12 +1161,12 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
+  background-color: #DCB7DE;
   border-color: #007095;
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #CE8DD1; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
@@ -1961,7 +1961,7 @@ meta.foundation-mq-topbar {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
       /*background-color: #555555;*/
-      color: #FFFFFF;
+      color: #D077F6;
       background: rgba(0,0,0,.0); }
     .top-bar-section ul li.active > a {
       background: #008CBA;
@@ -2172,7 +2172,7 @@ meta.foundation-mq-topbar {
         white-space: nowrap; }
       .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
         background: rgba(0,0,0,.0);
-        color: #FFFFFF; }
+        color: #D077F6; }
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
         /*background-color: orange;*/
         color: #FFFFFF;
@@ -2739,7 +2739,7 @@ meta.foundation-mq-topbar {
   border-color: #d8d8d8;
   margin-bottom: 0rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: #93E9DE;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -2758,7 +2758,7 @@ meta.foundation-mq-topbar {
     border-color: #d8d8d8;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ecfaff;
+    background: #CE8DD1;
     color: #333333; }
     .panel.callout > :first-child {
       margin-top: 0; }
@@ -3545,17 +3545,17 @@ ul.pagination {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #e8e8e8;
+      background: #CE8DD1;
       color: #222222; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #EFEFEF;
+      background: #BFF2EB;
       color: #222222;
       display: block;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: #14CFB7; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem;

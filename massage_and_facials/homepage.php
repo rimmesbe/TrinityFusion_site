@@ -55,7 +55,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naple's Facials</title>
+    <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
     <script src="js/vendor/jquery.js"></script>
@@ -101,45 +101,50 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#">Naples Facial's</a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
         <section class="top-bar-section">
           <ul class="right">
             <li class="has-dropdown">
-              <a href="#" class="tab-text">SERVICES</a>
+              <a href="#" class="tab-text light-purple">SERVICES</a>
               <ul class="dropdown">
-                <li><a href="#" class="tab-text">Massages</a></li>
-                <li><a href="#" class="tab-text">Facials</a></li>
-                <li><a href="#" class="tab-text">Spa Party</a></li>
+                <li><a href="#massage" class="tab-text">Massages</a></li>
+                <li><a href="#facial" class="tab-text">Facials</a></li>
+                <li><a href="#spa-party" class="tab-text">Spa Party</a></li>
               </ul>
             </li>
-            <li><a href="#">SCHEDULE</a></li>
+            <li><a href="#schedule" class="light-purple">SCHEDULE</a></li>
             <li class="has-dropdown">
-              <a href="#">ABOUT</a>
+              <a href="#" class="light-purple">ABOUT</a>
               <ul class="dropdown">
-                <li><a href="#" class="tab-text">Practitioner</a></li>
-                <li><a href="#" class="tab-text">Benefits of Massage</a></li>
-                <li><a href="#" class="tab-text">Frequently Asked Questions</a></li>
+                <li><a href="#practitioner" class="tab-text">Practitioner</a></li>
+                <li><a href="#benefits" class="tab-text">Benefits of Massage</a></li>
+                <li><a href="#questions" class="tab-text">Frequently Asked Questions</a></li>
               </ul>
             </li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#contact" class="light-purple">CONTACT</a></li>
           </ul>
         </section>
       </nav>
     </div>
 
     <!-- Main image display -->
-    <div class="row no-margin">
+    <div class="row no-margin" id="home">
       <div class="large-12 columns no-padding" id="main-img-div">
+        <div id="title-div">
+          <h1 class="center-text title-text">Oasis</h1>
+          <h2 class="center-text title-text">Mind, Body and</h2>
+          <h1 class="center-text title-text">Skin</h1>
+        </div>
       </div>
     </div>
 
     <!-- massage section -->
-    <div class="row section-margins" style="margin-top: 20px;">
+    <div class="row section-margins" style="margin-top: 20px;" id="massage">
       <div class="large-9 medium-9 columns">
-        <h1>Massage</h1>
+        <h1 class="teal-color">Massage</h1>
         <p>
           All massages are tailored and designed to meet the needs of each individual.<br><br>
           Different modalities can be mixed in each session:<br>
@@ -177,7 +182,7 @@
             <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $120.00 <br> 80 minutes: $170.00"><strong>House Call Rates</strong></span></h5>
           </div>
           <div class="large-6 medium-6 columns">
-            <a href="#" data-reveal-id="policyModal" class="medium radius secondary button">Cancelation Policy</a>
+            <a href="#" data-reveal-id="policyModal" class="medium radius secondary button border-button">Cancelation Policy</a>
             <div id="policyModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
               <h2>Cancellation Policy</h2>
               <p>We understand that unanticipated events happen occasionally in everyone’s life. In our desire to be effective and fair to all clients, the following policies are honored: </p>
@@ -203,7 +208,7 @@
     </div>
     <hr />
     <!-- facials section -->
-    <div class="row section-margins">
+    <div class="row section-margins" id="facial">
       <div class="large-4 medium-4 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img">
         <div class="panel callout radius margin-top">
@@ -219,16 +224,16 @@
       </div>
 
       <div class="large-8 medium-8 columns">
-        <h1>Facials</h1>
+        <h1 class="teal-color">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1a">Infuse Antioxidant Glow Facial</a>
             <div id="panel1a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>An infusion of vitamin E with Omega-3 fatty acids for regeneration, hydration and removal of toxins from the epidermis. This highly nourishing treatment includes face, décolleté, neck and shoulder massage, cleansing, liquid enzyme peel, antioxidant serum with grape seed mask and eye revitalize cream for glowing skin.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$125 or Package of 4 for $420</p>
                 </div>
@@ -239,11 +244,11 @@
             <a href="#panel2a">Signature Anti-Aging Facial with High Frequency</a>
             <div id="panel2a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Improve skin's elasticity and collagen production, decrease fine lines and prevent appearance of new ones. Includes face, décolleté, neck and shoulder massage, cleanse, lactic acid peel, amino peptide serum with mask, eye lifting cream and high frequency machine for toning and lifting.
                   </p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$140 or Package of 4 for $500</p>
                 </div>
@@ -254,10 +259,10 @@
             <a href="#panel3a">Corrective Facial for Mature Skin</a>
             <div id="panel3a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Refresh and Renew the skin using a double infusion of emulsion and skin brightening enzyme to increase oxygen and blood flow to depleted dry skin, reducing pigmentation and brightening skin. Includes face, décolleté, neck and shoulder massage, cleansing, emulsion and enzyme, vit-C serum with honey mask, finishing with brightening cream and sun protection. Good for mature skin, hyper pigmentation and acne/oily skin types.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$110 or Package of 4 for $380</p>
                 </div>
@@ -268,10 +273,10 @@
             <a href="#panel4a">Rehydration Facial</a>
             <div id="panel4a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>An ultimate remedy for thirsty, moisture-starved skin. This intensive treatment will leave you dewy and renewed, and includes a gentle milk cleanse, enzyme mask ,hydrating grape seed serum, milk mask, facial massage and sun protection. Your skin will never have felt so good.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$100 or Package of 4 for $360</p>
                 </div>
@@ -282,10 +287,10 @@
             <a href="#panel5a">Retexture (Exfoliation)</a>
             <div id="panel5a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>A thorough facial that is designed to smooth and brighten. It includes cleanse,derma peel exfoliation, steam, extractions, cherry jubilee masque treatment, hydration and sun protection. Leaves you with baby soft skin!</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$110 or Package of 4 for $400</p>
                 </div>
@@ -296,10 +301,10 @@
             <a href="#panel6a">Restorative Skin Back Treatment</a>
             <div id="panel6a" class="content">
               <div class="row" data-equalizer>
-                <div class="large-9 medium-9 columns panel" data-equalizer-watch>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
                 </div>
-                <div class="large-3 medium-3 columns panel" data-equalizer-watch>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
                   <p class="center-text">$90</p>
                 </div>
@@ -311,9 +316,9 @@
     </div>
     <hr />
     <!-- spa party section -->
-    <div class="row section-margins margin-left">
+    <div class="row section-margins margin-left" id="spa-party">
       <div class="large-8 medium-8 columns">
-        <h1>Spa Party</h1>
+        <h1 class="teal-color">Spa Party</h1>
         <p>Luxurious spa treatments by experienced therapists for you and your friends to enjoy in the comfort of your home. Prepare to be pampered!</p>
         <p>Hosting a Spa Party is a wonderful way to celebrate special occasions or events. Spa Parties are excellent for: Wellness Gatherings, Girls’ Night Out, Birthdays, Bachelorette/Bridal Parties, Sweet 16, Batzmitvah’s, Introducing Young Ladies to Self-Care, or just for fun!</p>
         <p>You can make the party as simple or elaborate as you like. You can keep your party simple by choosing a few spa party service favorites to comprise a Fixed Menu. Everyone enjoys the same services at the same flat rate. A party planning consultation is required by phone or in person at least 3 weeks prior to reserve a party date and therapists. During this consult we will discuss: Fixed Menu/A La Carte Menu, services and fee structure, and setting up of the space.</p>
@@ -350,9 +355,9 @@
     </div>
     <hr />
     <!-- schedule section -->
-    <div class="row">
+    <div class="row" id="schedule">
       <div class="large-3 medium-3 columns">
-        <h1 class="center-text">Scheduling</h1>
+        <h1 class="center-text teal-color">Scheduling</h1>
         <div class="panel callout">
           <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
           <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
@@ -367,9 +372,9 @@
     </div>
     <hr />
     <!-- practitioner section -->
-    <div class="row">
+    <div class="row" id="practitioner">
       <div class="large-8 medium-8 columns">
-        <h1>The Practitioner</h1>
+        <h1 class="teal-color">The Practitioner</h1>
         <p>Having worked in the Holistic Health field for over 29 years, I bring to you a wellspring of experience working with different modalities. This includes:</p>
         <p>Massage Therapy​, an assortment of ​anti-aging, renewing​ and regenerating Facia​ls,​Energy ​work, chakra balancing​ and my signature thera​pies which​ blend all of the above​ with various scrubs and aromatherapy​.</p>
         <p>For a good part of my life I have made my home on the beautiful east end of Long Island, NY, and have traveled all around the US to explore the beauty of this country.</p>
@@ -382,12 +387,12 @@
     </div>
     <hr />
     <!-- benefits of massage section -->
-    <div class="row margin-right">
+    <div class="row margin-right" id="benefits">
       <div class="large-4 medium-4 columns margin-top">
         <img src="img/massage_cartoon.jpg" alt="Massage cartoon" class="section-img">
       </div>
       <div class="large-8 medium-8 columns">
-        <h2>Benefits of Massage</h2>
+        <h2 class="teal-color">Benefits of Massage</h2>
         <ul>
           <li>Massage relieves muscle tension, pain and increases joint range-of-motion</li>
           <li>Massage improves blood circulation, lowers blood pressure, opens energy channels, stimulates organs, enhances immunity and detoxifies the body</li>
@@ -399,9 +404,9 @@
     </div>
     <hr />
     <!-- frequently asked questions section -->
-    <div class="row">
+    <div class="row" id="questions">
       <div class="large-12 medium-12 columns">
-        <h2 class="center-text">Frequently Asked Questions</h2>
+        <h2 class="center-text teal-color">Frequently Asked Questions</h2>
         <ul class="stack button-group">
           <li><a href="#" data-reveal-id="question1" class="button">Where will my massage or bodywork session take place?</a></li>
           <div id="question1" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -448,28 +453,30 @@
       </div>
     </div>
     <hr />
-
-    <div class="row">
+    <!-- contact section -->
+    <div class="row" id="contact">
       <div class="large-8 medium-8 columns">
-        <div class="contact-div">
-          <h1>Contact</h1>
-          <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
-            <?php
-              if($sent === true) {
-                echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
-              }elseif($hasError == true){
-                echo "<ul class='errorList'>";
-                foreach($errorArray as $key => $val){
-                  echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+        <h1 class="teal-color">Contact</h1>
+        <div id="shadow-form">
+          <div class="contact-div" style="margin: 1em;">
+            <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
+              <?php
+                if($sent === true) {
+                  echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
+                }elseif($hasError == true){
+                  echo "<ul class='errorList'>";
+                  foreach($errorArray as $key => $val){
+                    echo "<li class='form-errors'>" . ucfirst($key) . " field error - $val</li>";
+                  }
+                  echo "</ul>";
                 }
-                echo "</ul>";
-              }
-            ?>
-            <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
-            <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
-            <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
-            <input type="submit" name="submitform" value="Send" id="form-submit">
-          </form>
+              ?>
+              <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
+              <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
+              <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+              <input type="submit" name="submitform" value="Send" id="form-submit">
+            </form>
+          </div> <!-- contact div -->
         </div>
       </div>
       <div class="large-4 medium-4 columns margin-top">
