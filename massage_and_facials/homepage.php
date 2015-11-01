@@ -55,7 +55,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naple's Facials</title>
+    <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
     <script src="js/vendor/jquery.js"></script>
@@ -101,7 +101,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" id="home-color">Naples Facial's</a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -133,6 +133,11 @@
     <!-- Main image display -->
     <div class="row no-margin" id="home">
       <div class="large-12 columns no-padding" id="main-img-div">
+        <div id="title-div">
+          <h1 class="center-text title-text">Oasis</h1>
+          <h2 class="center-text title-text">Mind, Body and</h2>
+          <h1 class="center-text title-text">Skin</h1>
+        </div>
       </div>
     </div>
 

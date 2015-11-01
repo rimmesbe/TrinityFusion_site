@@ -69,6 +69,12 @@ a.button.border-button {
   background-color: #DCB7DE;
 }
 
+.title-text {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;
@@ -141,4 +147,8 @@ a.button.border-button {
   border-radius: 1em;
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 5px #888888;
+}
+
+#title-div {
+  margin: 7rem;
 }
