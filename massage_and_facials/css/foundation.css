@@ -1846,7 +1846,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: rgba(0,0,0,.1); }
+    background: rgba(0,0,0,.5); }
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
