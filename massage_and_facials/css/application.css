@@ -1,3 +1,11 @@
+p, li, a, h2, h3, h4, h5, h6 {
+  font-family: "Neuton", serif;
+}
+
+p, li {
+  font-size: 1.2rem;
+}
+
 ul{
     list-style-position: inside;
 }
@@ -71,16 +79,16 @@ a.button.border-button {
 
 .title-text {
   font-size: 6em;
-  font-weight: 500;
+  font-weight: 400;
   color: #D077F6;
   font-family: "Cinzel Decorative", serif;
 }
-/*Tangerine 700, Cinzel Decorative 400, Cinzel, Courgette, Arizonia*/
+
 .section-title-font {
   font-weight: 400;
   font-family: "Cinzel", serif;
 }
-/*Cinzel 400, */
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;

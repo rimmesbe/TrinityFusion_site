@@ -58,7 +58,7 @@
     <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
-    <link href='https://fonts.googleapis.com/css?family=Lobster|Abril+Fatface|Lobster+Two:400,700|Cinzel:400,700,900|Courgette|Tangerine:400,700|Pinyon+Script|Playfair+Display+SC:400,700,900|Great+Vibes|Neuton:400,700,800|Racing+Sans+One|Sansita+One|Cinzel+Decorative:400,700,900|Arizonia' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel|Neuton|Cinzel+Decorative' rel='stylesheet' type='text/css'>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
@@ -199,7 +199,7 @@
           </div>
         </div>
       </div> <!-- column-9 -->
-      <div class="large-3 medium-3 columns panel callout radius">
+      <div class="large-3 medium-3 columns panel callout radius margin-top">
         <h3 class="center-text">This Seasons Special</h3>
         <p class="center-text" id="special-p">
           Yours <strong>Free</strong> with any massage treatment.
