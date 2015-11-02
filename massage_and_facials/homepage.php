@@ -58,7 +58,7 @@
     <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
-    <link href='https://fonts.googleapis.com/css?family=Cinzel|Neuton|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel|Tangerine:700|Neuton|Cinzel+Decorative' rel='stylesheet' type='text/css'>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
@@ -383,7 +383,7 @@
       </div>
       <div class="large-4 medium-4 columns margin-top" id="headshot-div">
         <img src="img/Headshot_Colleen.png" alt="Colleen Miller" class="section-img">
-        <h3 id="headshot-h3">Colleen Miller</h3>
+        <h1 id="headshot-h3">Colleen Miller</h3>
       </div>
     </div>
     <hr />

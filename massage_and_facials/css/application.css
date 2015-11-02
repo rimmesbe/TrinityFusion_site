@@ -2,7 +2,7 @@ p, li, a, h2, h3, h4, h5, h6 {
   font-family: "Neuton", serif;
 }
 
-p, li {
+p, li, a {
   font-size: 1.2rem;
 }
 
@@ -124,11 +124,13 @@ a.button.border-button {
 }
 
 #headshot-h3 {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0px;
   width: 100%;
   text-align: center;
   color: #DD43E8;
+  font-family:"Tangerine", serif;
+  font-weight: 700;
 }
 
 #form-submit {

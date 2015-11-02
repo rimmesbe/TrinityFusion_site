@@ -1774,6 +1774,7 @@ meta.foundation-mq-topbar {
         color: #FFFFFF;
         display: block;
         font-weight: normal;
+        font-size: 2rem;
         padding: 0 0.9375rem;
         width: 75%; }
   .top-bar .toggle-topbar {
@@ -3551,8 +3552,8 @@ ul.pagination {
       background: #BFF2EB;
       color: #222222;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-size: 1rem;
+      font-family: "Neuton", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 1.2rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #14CFB7; }
