@@ -58,6 +58,7 @@
     <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Abril+Fatface|Lobster+Two:400,700|Cinzel:400,700,900|Courgette|Tangerine:400,700|Pinyon+Script|Playfair+Display+SC:400,700,900|Great+Vibes|Neuton:400,700,800|Racing+Sans+One|Sansita+One|Cinzel+Decorative:400,700,900|Arizonia' rel='stylesheet' type='text/css'>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
@@ -332,7 +333,7 @@
     <div class="row">
       <div class="large-3 medium-3 columns">
         <p class="center-text no-margin" id="party-panel-left"><i>We require a minimum of 4 people to hold a spa party, with a maximum of 12 attendees.</i></p>
-        <a href="#" class="medium radius secondary button no-margin border-button" style="width: 100%;">Contact for rates</a>
+        <a href="#contact" class="medium radius secondary button no-margin border-button" style="width: 100%;">Contact for rates</a>
         <a href="#" data-reveal-id="spaPolicy" class="medium radius secondary button no-margin border-button">Spa Party Cancelation Policy</a>
         <div id="spaPolicy" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
           <h3 id="modalTitle">Spa Party Cancelation Policy</h3>
@@ -491,7 +492,7 @@
 
           <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">Gift Certificates</h2>
-            <p class="lead">Available for all Occations</p>
+            <p class="lead">Available for all Occasions</p>
             <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>

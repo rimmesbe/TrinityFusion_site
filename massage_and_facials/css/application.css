@@ -70,10 +70,12 @@ a.button.border-button {
 }
 
 .title-text {
-  font-size: 5em;
-  font-weight: bold;
-  color: white;
+  font-size: 6em;
+  font-weight: 500;
+  color: #D077F6;
+  font-family: "Cinzel Decorative", serif;
 }
+/*Tangerine 700, Cinzel Decorative 400, Cinzel, Courgette, Arizonia*/
 
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
