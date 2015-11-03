@@ -78,6 +78,7 @@ a.button.border-button {
 }
 
 .title-text {
+  text-shadow: 1px 1px #22B59D;
   font-size: 6em;
   font-weight: 400;
   color: #D077F6;
@@ -186,11 +187,11 @@ a.button.border-button {
 }
 
 @keyframes title {
-  0%  {color: #D077F6; opacity: 1;}
-  1%  {color: white; opacity: 0;}
-  40% {color: white; opacity: .5;}
-  65% {color: white; opacity: 1;}
-  75% {color: #D077F6; opacity: .5;}
-  90% {color: #D077F6; opacity: .75;}
-  100% {color: #D077F6; opacity: 1;}
+  0%  {color: #D077F6; opacity: 1; text-shadow: none;}
+  1%  {color: white; opacity: 0; text-shadow: none;}
+  40% {color: white; opacity: .5; text-shadow: none;}
+  65% {color: white; opacity: 1; text-shadow: none;}
+  75% {color: #D077F6; opacity: .5; text-shadow: none;}
+  85% {color: #D077F6; opacity: .75; text-shadow: none;}
+  95% {color: #D077F6; opacity: 1; text-shadow: none;}
 }
