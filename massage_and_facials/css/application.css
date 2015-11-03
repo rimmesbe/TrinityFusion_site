@@ -1,3 +1,11 @@
+p, li, a, h2, h3, h4, h5, h6 {
+  font-family: "Neuton", serif;
+}
+
+p, li, a {
+  font-size: 1.2rem;
+}
+
 ul{
     list-style-position: inside;
 }
@@ -70,9 +78,15 @@ a.button.border-button {
 }
 
 .title-text {
-  font-size: 5em;
-  font-weight: bold;
-  color: white;
+  font-size: 6em;
+  font-weight: 400;
+  color: #D077F6;
+  font-family: "Cinzel Decorative", serif;
+}
+
+.section-title-font {
+  font-weight: 400;
+  font-family: "Cinzel", serif;
 }
 
 #main-img-div {
@@ -110,11 +124,13 @@ a.button.border-button {
 }
 
 #headshot-h3 {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0px;
   width: 100%;
   text-align: center;
   color: #DD43E8;
+  font-family:"Tangerine", serif;
+  font-weight: 700;
 }
 
 #form-submit {

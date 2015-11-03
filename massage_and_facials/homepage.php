@@ -58,6 +58,7 @@
     <title>Oasis Mind Body and Skin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/application.css" />
+    <link href='https://fonts.googleapis.com/css?family=Cinzel|Tangerine:700|Neuton|Cinzel+Decorative' rel='stylesheet' type='text/css'>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
@@ -144,7 +145,7 @@
     <!-- massage section -->
     <div class="row section-margins" style="margin-top: 20px;" id="massage">
       <div class="large-9 medium-9 columns">
-        <h1 class="teal-color">Massage</h1>
+        <h1 class="teal-color section-title-font">Massage</h1>
         <p>
           All massages are tailored and designed to meet the needs of each individual.<br><br>
           Different modalities can be mixed in each session:<br>
@@ -198,7 +199,7 @@
           </div>
         </div>
       </div> <!-- column-9 -->
-      <div class="large-3 medium-3 columns panel callout radius">
+      <div class="large-3 medium-3 columns panel callout radius margin-top">
         <h3 class="center-text">This Seasons Special</h3>
         <p class="center-text" id="special-p">
           Yours <strong>Free</strong> with any massage treatment.
@@ -224,7 +225,7 @@
       </div>
 
       <div class="large-8 medium-8 columns">
-        <h1 class="teal-color">Facials</h1>
+        <h1 class="teal-color section-title-font">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1a">Infuse Antioxidant Glow Facial</a>
@@ -318,7 +319,7 @@
     <!-- spa party section -->
     <div class="row section-margins margin-left" id="spa-party">
       <div class="large-8 medium-8 columns">
-        <h1 class="teal-color">Spa Party</h1>
+        <h1 class="teal-color section-title-font">Spa Party</h1>
         <p>Luxurious spa treatments by experienced therapists for you and your friends to enjoy in the comfort of your home. Prepare to be pampered!</p>
         <p>Hosting a Spa Party is a wonderful way to celebrate special occasions or events. Spa Parties are excellent for: Wellness Gatherings, Girls’ Night Out, Birthdays, Bachelorette/Bridal Parties, Sweet 16, Batzmitvah’s, Introducing Young Ladies to Self-Care, or just for fun!</p>
         <p>You can make the party as simple or elaborate as you like. You can keep your party simple by choosing a few spa party service favorites to comprise a Fixed Menu. Everyone enjoys the same services at the same flat rate. A party planning consultation is required by phone or in person at least 3 weeks prior to reserve a party date and therapists. During this consult we will discuss: Fixed Menu/A La Carte Menu, services and fee structure, and setting up of the space.</p>
@@ -332,7 +333,7 @@
     <div class="row">
       <div class="large-3 medium-3 columns">
         <p class="center-text no-margin" id="party-panel-left"><i>We require a minimum of 4 people to hold a spa party, with a maximum of 12 attendees.</i></p>
-        <a href="#" class="medium radius secondary button no-margin border-button" style="width: 100%;">Contact for rates</a>
+        <a href="#contact" class="medium radius secondary button no-margin border-button" style="width: 100%;">Contact for rates</a>
         <a href="#" data-reveal-id="spaPolicy" class="medium radius secondary button no-margin border-button">Spa Party Cancelation Policy</a>
         <div id="spaPolicy" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
           <h3 id="modalTitle">Spa Party Cancelation Policy</h3>
@@ -357,7 +358,7 @@
     <!-- schedule section -->
     <div class="row" id="schedule">
       <div class="large-3 medium-3 columns">
-        <h1 class="center-text teal-color">Scheduling</h1>
+        <h1 class="center-text teal-color section-title-font">Scheduling</h1>
         <div class="panel callout">
           <p class="center-text"><strong>Availability:</strong><br>Monday through Sunday<br>10 am - 8pm</p>
           <p class="center-text"><i>Call 631-287-3527</i><br> to schedule an appointment</p>
@@ -374,7 +375,7 @@
     <!-- practitioner section -->
     <div class="row" id="practitioner">
       <div class="large-8 medium-8 columns">
-        <h1 class="teal-color">The Practitioner</h1>
+        <h1 class="teal-color section-title-font">The Practitioner</h1>
         <p>Having worked in the Holistic Health field for over 29 years, I bring to you a wellspring of experience working with different modalities. This includes:</p>
         <p>Massage Therapy​, an assortment of ​anti-aging, renewing​ and regenerating Facia​ls,​Energy ​work, chakra balancing​ and my signature thera​pies which​ blend all of the above​ with various scrubs and aromatherapy​.</p>
         <p>For a good part of my life I have made my home on the beautiful east end of Long Island, NY, and have traveled all around the US to explore the beauty of this country.</p>
@@ -382,7 +383,7 @@
       </div>
       <div class="large-4 medium-4 columns margin-top" id="headshot-div">
         <img src="img/Headshot_Colleen.png" alt="Colleen Miller" class="section-img">
-        <h3 id="headshot-h3">Colleen Miller</h3>
+        <h1 id="headshot-h3">Colleen Miller</h3>
       </div>
     </div>
     <hr />
@@ -392,7 +393,7 @@
         <img src="img/massage_cartoon.jpg" alt="Massage cartoon" class="section-img">
       </div>
       <div class="large-8 medium-8 columns">
-        <h2 class="teal-color">Benefits of Massage</h2>
+        <h2 class="teal-color section-title-font">Benefits of Massage</h2>
         <ul>
           <li>Massage relieves muscle tension, pain and increases joint range-of-motion</li>
           <li>Massage improves blood circulation, lowers blood pressure, opens energy channels, stimulates organs, enhances immunity and detoxifies the body</li>
@@ -406,7 +407,7 @@
     <!-- frequently asked questions section -->
     <div class="row" id="questions">
       <div class="large-12 medium-12 columns">
-        <h2 class="center-text teal-color">Frequently Asked Questions</h2>
+        <h2 class="center-text teal-color section-title-font">Frequently Asked Questions</h2>
         <ul class="stack button-group">
           <li><a href="#" data-reveal-id="question1" class="button">Where will my massage or bodywork session take place?</a></li>
           <div id="question1" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -456,7 +457,7 @@
     <!-- contact section -->
     <div class="row" id="contact">
       <div class="large-8 medium-8 columns">
-        <h1 class="teal-color">Contact</h1>
+        <h1 class="teal-color section-title-font">Contact</h1>
         <div id="shadow-form">
           <div class="contact-div" style="margin: 1em;">
             <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
@@ -491,7 +492,7 @@
 
           <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">Gift Certificates</h2>
-            <p class="lead">Available for all Occations</p>
+            <p class="lead">Available for all Occasions</p>
             <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
