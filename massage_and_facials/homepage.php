@@ -299,8 +299,23 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel6a">Restorative Skin Back Treatment</a>
+            <a href="#panel6a">Facial/Massage Headache and Sinus Relief</a>
             <div id="panel6a" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p>This refreshing facial detoxifies congested skin and relieves sinus pressure using aromatherapy infused warm compresses, acupressure and lymphatic drainage massage. Gentle cleanse, followed by a soothing steam. Marine algae mask detoxifies the skin while vitamin C serum boosts the immune system and reduces inflammation. Massage targets neck, face and head to relieve pressure and pain. Good for sinus pressure, allergies, tmj jaw pain, headache and neck tension.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$110</p>
+                  <p class="center-text">50 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-navigation">
+            <a href="#panel7a">Restorative Skin Back Treatment</a>
+            <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
