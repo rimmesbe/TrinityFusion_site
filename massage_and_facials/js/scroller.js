@@ -3,7 +3,7 @@ $(document).ready(function(){
     var $target = $(e.target);
     var locale = $target[0]['hash'];
     $('html, body').animate({
-      scrollTop: $(locale).offset().top
+      scrollTop: $(locale).offset().top -100
     }, 2000);
   });
 });
