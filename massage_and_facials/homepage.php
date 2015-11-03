@@ -209,7 +209,7 @@
     </div>
     <hr />
     <!-- facials section -->
-    <div class="row section-margins" id="facial">
+    <div class="row" id="facial">
       <div class="large-4 medium-4 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img">
         <div class="panel callout radius margin-top">
@@ -328,6 +328,10 @@
             </div>
           </li>
         </ul>
+      </div>
+    </div>
+    <div class="row section-margins margin-top">
+      <div class="large-8 medium-8 columns" id="luxury-packages">
         <h3 class="teal-color cinzel-font">Luxury Packages</h3>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
@@ -364,6 +368,9 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div class="large-4 medium-4 columns">
+        <img src="img/massage_facial.jpg" alt="massage facial" class="section-img">
       </div>
     </div>
     <hr />
