@@ -89,6 +89,11 @@ a.button.border-button {
   font-family: "Cinzel", serif;
 }
 
+.cinzel-font {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+
 #main-img-div {
   background-image: url("../img/new_facial_flower.jpg");
   background-repeat: no-repeat;

@@ -328,6 +328,42 @@
             </div>
           </li>
         </ul>
+        <h3 class="teal-color cinzel-font">Luxury Packages</h3>
+        <ul class="accordion" data-accordion>
+          <li class="accordion-navigation">
+            <a href="#panel1b">A Touch of Nirvana</a>
+            <div id="panel1b" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p><i>Foot Reflexology Treatment with detoxifying essential oils, Signature Restorative Facial and Relaxing upper body head/neck/shoulder Massage.</i></p>
+                  <p>This heavenly treatment begins with warm packs placed on the belly and under the neck encouraging the body to let go and relax. Mixtures of warm castor oil with detoxifying essential oils of lemon, rosemary and peppermint are massaged into the feet to open and stimulate the reflex points to prepare for the <strong>foot reflexology</strong> treatment.</p>
+                  <p>The signature <strong>facial</strong> is implemented while the essential oils are soaking into the feet. After cleansing the face an enzyme exfoliate is used to remove dead skin then allowing fresh new skin to soak up the nourishing, hydrating serums that are applied. After the conditioning mask is applied the foot reflexology begins.</p>
+                  <p>Head/neck/shoulder <strong>massage</strong> is incorporated into this treatment to encourage lymph drainage and relax muscles soothing away tension. Finishing with warm compresses to the feet makes this therapy a <i>Touch of Nirvana</i>.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$190</p>
+                  <p class="center-text">80 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-navigation">
+            <a href="#panel2b">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
+            <div id="panel2b" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p>This <strong>80 minute</strong> therapy was created to give you the most luxurious treatment and tranquil experience that benefits your total well being. <strong>Full body</strong> total relaxing <strong>massage</strong> softens tense areas in the body while the <strong>signature facial</strong>, designed to suit each individual, employs hydrating fluids with conditioning mask. Exfoliating <strong>back scrub</strong> using creamy-textured natural ingredients detoxifies and regenerates skin. <strong>Warm compresses</strong> are used to remove product and nourishing Vit C cream is applied for hydration and nourishment to complete this Total Indulgence experience.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$190</p>
+                  <p class="center-text">80 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <hr />
