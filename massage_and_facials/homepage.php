@@ -209,7 +209,7 @@
     </div>
     <hr />
     <!-- facials section -->
-    <div class="row section-margins" id="facial">
+    <div class="row" id="facial">
       <div class="large-4 medium-4 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img">
         <div class="panel callout radius margin-top">
@@ -299,8 +299,23 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel6a">Restorative Skin Back Treatment</a>
+            <a href="#panel6a">Facial/Massage Headache and Sinus Relief</a>
             <div id="panel6a" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p>This refreshing facial detoxifies congested skin and relieves sinus pressure using aromatherapy infused warm compresses, acupressure and lymphatic drainage massage. Gentle cleanse, followed by a soothing steam. Marine algae mask detoxifies the skin while vitamin C serum boosts the immune system and reduces inflammation. Massage targets neck, face and head to relieve pressure and pain. Good for sinus pressure, allergies, tmj jaw pain, headache and neck tension.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$110</p>
+                  <p class="center-text">50 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-navigation">
+            <a href="#panel7a">Restorative Skin Back Treatment</a>
+            <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
                   <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
@@ -313,6 +328,49 @@
             </div>
           </li>
         </ul>
+      </div>
+    </div>
+    <div class="row section-margins margin-top">
+      <div class="large-8 medium-8 columns" id="luxury-packages">
+        <h3 class="teal-color cinzel-font">Luxury Packages</h3>
+        <ul class="accordion" data-accordion>
+          <li class="accordion-navigation">
+            <a href="#panel1b">A Touch of Nirvana</a>
+            <div id="panel1b" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p><i>Foot Reflexology Treatment with detoxifying essential oils, Signature Restorative Facial and Relaxing upper body head/neck/shoulder Massage.</i></p>
+                  <p>This heavenly treatment begins with warm packs placed on the belly and under the neck encouraging the body to let go and relax. Mixtures of warm castor oil with detoxifying essential oils of lemon, rosemary and peppermint are massaged into the feet to open and stimulate the reflex points to prepare for the <strong>foot reflexology</strong> treatment.</p>
+                  <p>The signature <strong>facial</strong> is implemented while the essential oils are soaking into the feet. After cleansing the face an enzyme exfoliate is used to remove dead skin then allowing fresh new skin to soak up the nourishing, hydrating serums that are applied. After the conditioning mask is applied the foot reflexology begins.</p>
+                  <p>Head/neck/shoulder <strong>massage</strong> is incorporated into this treatment to encourage lymph drainage and relax muscles soothing away tension. Finishing with warm compresses to the feet makes this therapy a <i>Touch of Nirvana</i>.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$190</p>
+                  <p class="center-text">80 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-navigation">
+            <a href="#panel2b">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
+            <div id="panel2b" class="content">
+              <div class="row" data-equalizer>
+                <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
+                  <p>This <strong>80 minute</strong> therapy was created to give you the most luxurious treatment and tranquil experience that benefits your total well being. <strong>Full body</strong> total relaxing <strong>massage</strong> softens tense areas in the body while the <strong>signature facial</strong>, designed to suit each individual, employs hydrating fluids with conditioning mask. Exfoliating <strong>back scrub</strong> using creamy-textured natural ingredients detoxifies and regenerates skin. <strong>Warm compresses</strong> are used to remove product and nourishing Vit C cream is applied for hydration and nourishment to complete this Total Indulgence experience.</p>
+                </div>
+                <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
+                  <h4 class="center-text">Price:</h4>
+                  <p class="center-text">$190</p>
+                  <p class="center-text">80 minute therapy</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="large-4 medium-4 columns">
+        <img src="img/massage_facial.jpg" alt="massage facial" class="section-img">
       </div>
     </div>
     <hr />
