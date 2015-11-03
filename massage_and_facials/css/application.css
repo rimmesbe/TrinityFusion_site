@@ -82,6 +82,10 @@ a.button.border-button {
   font-weight: 400;
   color: #D077F6;
   font-family: "Cinzel Decorative", serif;
+  opacity: 1;
+  animation-name: title;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
 }
 
 .section-title-font {
@@ -179,4 +183,14 @@ a.button.border-button {
 
 #title-div {
   margin: 7rem;
+}
+
+@keyframes title {
+  0%  {color: #D077F6; opacity: 1;}
+  1%  {color: white; opacity: 0;}
+  40% {color: white; opacity: .5;}
+  65% {color: white; opacity: 1;}
+  75% {color: #D077F6; opacity: .5;}
+  90% {color: #D077F6; opacity: .75;}
+  100% {color: #D077F6; opacity: 1;}
 }
