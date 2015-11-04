@@ -63,6 +63,7 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script src="js/scroller.js"></script>
     <script>
       $(document).ready(function(){
         $('#contactform').validate({
@@ -102,7 +103,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" id="home-color">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -111,21 +112,21 @@
             <li class="has-dropdown">
               <a href="#" class="tab-text light-purple">SERVICES</a>
               <ul class="dropdown">
-                <li><a href="#massage" class="tab-text">Massages</a></li>
-                <li><a href="#facial" class="tab-text">Facials</a></li>
-                <li><a href="#spa-party" class="tab-text">Spa Party</a></li>
+                <li><a href="#massage" class="tab-text scroll">Massages</a></li>
+                <li><a href="#facial" class="tab-text scroll">Facials</a></li>
+                <li><a href="#spa-party" class="tab-text scroll">Spa Party</a></li>
               </ul>
             </li>
-            <li><a href="#schedule" class="light-purple">SCHEDULE</a></li>
+            <li><a href="#schedule" class="light-purple scroll">SCHEDULE</a></li>
             <li class="has-dropdown">
               <a href="#" class="light-purple">ABOUT</a>
               <ul class="dropdown">
-                <li><a href="#practitioner" class="tab-text">Practitioner</a></li>
-                <li><a href="#benefits" class="tab-text">Benefits of Massage</a></li>
-                <li><a href="#questions" class="tab-text">Frequently Asked Questions</a></li>
+                <li><a href="#practitioner" class="tab-text scroll">Practitioner</a></li>
+                <li><a href="#benefits" class="tab-text scroll">Benefits of Massage</a></li>
+                <li><a href="#questions" class="tab-text scroll">Frequently Asked Questions</a></li>
               </ul>
             </li>
-            <li><a href="#contact" class="light-purple">CONTACT</a></li>
+            <li><a href="#contact" class="light-purple scroll">CONTACT</a></li>
           </ul>
         </section>
       </nav>
