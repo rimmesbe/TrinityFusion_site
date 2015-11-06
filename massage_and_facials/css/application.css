@@ -62,15 +62,15 @@ body.f-topbar-fixed {
 
 a.button.border-button {
   background-color: #f2f2f2;
-  border: 1px solid #93E9DE;
+  border: 1px solid #C3CC66;
 }
 
 .fixed .top-bar .light-purple {
-  color: #D077F6;
+  color: #D1A3D3;
 }
 
 .teal-color {
-  color: #14CFB7;
+  color: #C3CC66;
 }
 
 .light-purple{
@@ -78,10 +78,10 @@ a.button.border-button {
 }
 
 .title-text {
-  text-shadow: 1px 1px #22B59D;
+  text-shadow: 2px 2px #C3CC66;
   font-size: 6em;
   font-weight: 400;
-  color: #D077F6;
+  color: #D1A3D3;
   font-family: "Cinzel Decorative", serif;
   opacity: 1;
   animation-name: title;
@@ -99,8 +99,26 @@ a.button.border-button {
   font-weight: 400;
 }
 
+.first-list-item {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.last-list-item {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.facial-list {
+  text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FAD605;
+}
+
+.purple-text-shadow {
+  text-shadow: 0 0 3px #D94ADF;
+}
+
 #luxury-packages {
-  border: 1px solid #D077F6;
+  border: 1px solid #D1A3D3;
   border-radius: 15px;
   padding-bottom: 2%;
 }
@@ -144,35 +162,35 @@ a.button.border-button {
   bottom: 0px;
   width: 100%;
   text-align: center;
-  color: #DD43E8;
+  color: #D1A3D3;
   font-family:"Tangerine", serif;
   font-weight: 700;
 }
 
 #form-submit {
   border-radius: 25%;
-  background-color: #14CFB7;
+  background-color: #C3CC66;
   width: 20%;
   height: 3em;
 }
 
 #form-submit:hover {
-  background-color: #ACEEE5;
+  background-color: #A8B05C;
 }
 
 #gift-modal {
   width: 100%;
   margin: auto;
-  background-color: #14CFB7;
+  background-color: #C3CC66;
   color: black;
 }
 
 #gift-modal:hover {
-  background-color: #ACEEE5;
+  background-color: #A8B05C;
 }
 
 #home-color {
-  color: #D077F6;
+  color: #D1A3D3;
 }
 
 #shadow-form {
@@ -187,11 +205,11 @@ a.button.border-button {
 }
 
 @keyframes title {
-  0%  {color: #D077F6; opacity: 1; text-shadow: none;}
+  0%  {color: #D1A3D3; opacity: 1; text-shadow: none;}
   1%  {color: white; opacity: 0; text-shadow: none;}
   40% {color: white; opacity: .5; text-shadow: none;}
   65% {color: white; opacity: 1; text-shadow: none;}
-  75% {color: #D077F6; opacity: .5; text-shadow: none;}
-  85% {color: #D077F6; opacity: .75; text-shadow: none;}
-  95% {color: #D077F6; opacity: 1; text-shadow: none;}
+  75% {color: #D1A3D3; opacity: .5; text-shadow: none;}
+  85% {color: #D1A3D3; opacity: .75; text-shadow: none;}
+  95% {color: #D1A3D3; opacity: 1; text-shadow: none;}
 }
