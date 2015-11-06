@@ -215,6 +215,10 @@ a.button.border-button {
     animation-duration: 6s;
     animation-timing-function: ease-in;
   }
+
+  .sm-margin-top {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 40.0625em) {
