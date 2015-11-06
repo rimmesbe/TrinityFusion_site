@@ -113,6 +113,10 @@ a.button.border-button {
   text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FAD605;
 }
 
+.purple-text-shadow {
+  text-shadow: 0 0 3px #D94ADF;
+}
+
 #luxury-packages {
   border: 1px solid #D1A3D3;
   border-radius: 15px;
