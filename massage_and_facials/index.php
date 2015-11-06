@@ -229,7 +229,7 @@
         <h1 class="teal-color section-title-font">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
-            <a href="#panel1a" class="first-list-item">Infuse Antioxidant Glow Facial</a>
+            <a href="#panel1a" class="first-list-item facial-list">Infuse Antioxidant Glow Facial</a>
             <div id="panel1a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -243,7 +243,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel2a">Signature Anti-Aging Facial with High Frequency</a>
+            <a href="#panel2a" class="facial-list">Signature Anti-Aging Facial with High Frequency</a>
             <div id="panel2a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -258,7 +258,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel3a">Corrective Facial for Mature Skin</a>
+            <a href="#panel3a" class="facial-list">Corrective Facial for Mature Skin</a>
             <div id="panel3a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -272,7 +272,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel4a">Rehydration Facial</a>
+            <a href="#panel4a" class="facial-list">Rehydration Facial</a>
             <div id="panel4a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -286,7 +286,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel5a">Retexture (Exfoliation)</a>
+            <a href="#panel5a" class="facial-list">Retexture (Exfoliation)</a>
             <div id="panel5a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -300,7 +300,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel6a">Facial/Massage Headache and Sinus Relief</a>
+            <a href="#panel6a" class="facial-list">Facial/Massage Headache and Sinus Relief</a>
             <div id="panel6a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -315,7 +315,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel7a" class="last-list-item">Restorative Skin Back Treatment</a>
+            <a href="#panel7a" class="last-list-item facial-list">Restorative Skin Back Treatment</a>
             <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -336,7 +336,7 @@
         <h3 class="teal-color cinzel-font">Luxury Packages</h3>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
-            <a href="#panel1b" class="first-list-item">A Touch of Nirvana</a>
+            <a href="#panel1b" class="first-list-item facial-list">A Touch of Nirvana</a>
             <div id="panel1b" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -354,7 +354,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel2b" class="last-list-item">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
+            <a href="#panel2b" class="last-list-item facial-list">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
             <div id="panel2b" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>

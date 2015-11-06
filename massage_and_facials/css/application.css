@@ -109,6 +109,10 @@ a.button.border-button {
   border-bottom-right-radius: 25px;
 }
 
+.facial-list {
+  text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FAD605;
+}
+
 #luxury-packages {
   border: 1px solid #D1A3D3;
   border-radius: 15px;
