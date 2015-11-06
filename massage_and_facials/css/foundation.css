@@ -2738,6 +2738,7 @@ meta.foundation-mq-topbar {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
+  border-radius: 25px;
   margin-bottom: 0rem;
   padding: 1.25rem;
   background: #93E9DE;
@@ -2757,6 +2758,7 @@ meta.foundation-mq-topbar {
     border-style: solid;
     border-width: 1px;
     border-color: #d8d8d8;
+    border-radius: 25px;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
     background: #CE8DD1;
@@ -2777,7 +2779,7 @@ meta.foundation-mq-topbar {
       .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
         color: #0078a0; }
   .panel.radius {
-    border-radius: 3px; }
+    border-radius: 25px; }
 
 .dropdown.button, button.dropdown {
   position: relative;
