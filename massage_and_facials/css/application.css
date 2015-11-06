@@ -99,6 +99,16 @@ a.button.border-button {
   font-weight: 400;
 }
 
+.first-list-item {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.last-list-item {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
 #luxury-packages {
   border: 1px solid #D1A3D3;
   border-radius: 15px;

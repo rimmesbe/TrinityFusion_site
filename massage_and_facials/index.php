@@ -229,7 +229,7 @@
         <h1 class="teal-color section-title-font">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
-            <a href="#panel1a">Infuse Antioxidant Glow Facial</a>
+            <a href="#panel1a" class="first-list-item">Infuse Antioxidant Glow Facial</a>
             <div id="panel1a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -315,7 +315,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel7a">Restorative Skin Back Treatment</a>
+            <a href="#panel7a" class="last-list-item">Restorative Skin Back Treatment</a>
             <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -336,7 +336,7 @@
         <h3 class="teal-color cinzel-font">Luxury Packages</h3>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
-            <a href="#panel1b">A Touch of Nirvana</a>
+            <a href="#panel1b" class="first-list-item">A Touch of Nirvana</a>
             <div id="panel1b" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -354,7 +354,7 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel2b">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
+            <a href="#panel2b" class="last-list-item">The Total Indulgence Therapy: Relax.. Replenish.. Refresh</a>
             <div id="panel2b" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
@@ -468,7 +468,7 @@
       <div class="large-12 medium-12 columns">
         <h2 class="center-text teal-color section-title-font">Frequently Asked Questions</h2>
         <ul class="stack button-group">
-          <li><a href="#" data-reveal-id="question1" class="button">Where will my massage or bodywork session take place?</a></li>
+          <li><a href="#" data-reveal-id="question1" class="button first-list-item">Where will my massage or bodywork session take place?</a></li>
           <div id="question1" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <p class="lead">Where will my massage or bodywork session take place?</p>
             <p>In the comfort of your home. You may like to have nice music playing and a calm, private atmosphere is helpful to relax.</p>
@@ -503,7 +503,7 @@
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
-          <li><a href="#" data-reveal-id="question7" class="button">Are there any medical conditions that would make massage or bodywork inadvisable?</a></li>
+          <li><a href="#" data-reveal-id="question7" class="button last-list-item">Are there any medical conditions that would make massage or bodywork inadvisable?</a></li>
           <div id="question7" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <p class="lead">Are there any medical conditions that would make massage or bodywork inadvisable?</p>
             <p>Yes. That's why it's imperative that, before you begin your session, the practitioner asks general health questions. It is very important that you inform the practitioner of any health problems or medications you are taking. If you are under a doctor's care, it is strongly advised that you receive a written recommendation for massage or bodywork prior to any session. Depending on the condition, approval from your doctor may be required.</p>
