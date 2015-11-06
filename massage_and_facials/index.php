@@ -103,7 +103,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -211,21 +211,7 @@
     <hr />
     <!-- facials section -->
     <div class="row" id="facial">
-      <div class="large-4 medium-4 columns">
-        <img src="img/facial_mask.jpg" alt="facial mask" class="section-img">
-        <div class="panel callout radius margin-top">
-          <h4 class="center-text">Add-on to your facial treatment:</h4>
-          <ul>
-            <li>Foot Reflexology--$40</li>
-            <li>Hand Massage--$40</li>
-            <li>Back Facial--$50</li>
-            <li>Microcurrent lifting facial--$40</li>
-            <li>High Frequency--$40</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="large-8 medium-8 columns">
+      <div class="large-8 medium-8 medium-push-4 columns">
         <h1 class="teal-color section-title-font">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
@@ -330,6 +316,19 @@
           </li>
         </ul>
       </div>
+      <div class="large-4 medium-4 medium-pull-8 columns">
+        <img src="img/facial_mask.jpg" alt="facial mask" class="section-img sm-margin-top">
+        <div class="panel callout radius margin-top">
+          <h4 class="center-text">Add-on to your facial treatment:</h4>
+          <ul>
+            <li>Foot Reflexology--$40</li>
+            <li>Hand Massage--$40</li>
+            <li>Back Facial--$50</li>
+            <li>Microcurrent lifting facial--$40</li>
+            <li>High Frequency--$40</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="row section-margins margin-top">
       <div class="large-8 medium-8 columns" id="luxury-packages">
@@ -401,7 +400,7 @@
         </div>
       </div>
 
-      <div class="large-9 medium-9 columns panel">
+      <div class="large-9 medium-9 columns panel sm-margin-top">
         <h4 class="center-text" id="spa-menu">Menu</h4>
           <ul class="center-text">
             <li>Massage and Mini Massage</li>
@@ -515,6 +514,24 @@
     <hr />
     <!-- contact section -->
     <div class="row" id="contact">
+      <div class="large-4 medium-4 columns margin-top">
+        <div class="panel callout radius">
+          <h4 class="center-text">Call:</h4>
+          <p class="center-text"><i>631-287-3527</i></p>
+          <p class="center-text">For more information on Services</p>
+          <p class="center-text">To Schedule an Appointment</p>
+          <p class="center-text">To Order a... </p>
+
+          <a href="#" data-reveal-id="giftModal" class="button radius" id="gift-modal">Gift Certificate</a>
+
+          <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h2 id="modalTitle">Gift Certificates</h2>
+            <p class="lead">Available for all Occasions</p>
+            <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+          </div>
+        </div>
+      </div>
       <div class="large-8 medium-8 columns">
         <h1 class="teal-color section-title-font">Contact</h1>
         <div id="shadow-form">
@@ -537,24 +554,6 @@
               <input type="submit" name="submitform" value="Send" id="form-submit">
             </form>
           </div> <!-- contact div -->
-        </div>
-      </div>
-      <div class="large-4 medium-4 columns margin-top">
-        <div class="panel callout radius">
-          <h4 class="center-text">Call:</h4>
-          <p class="center-text"><i>631-287-3527</i></p>
-          <p class="center-text">For more information on Services</p>
-          <p class="center-text">To Schedule an Appointment</p>
-          <p class="center-text">To Order a... </p>
-
-          <a href="#" data-reveal-id="giftModal" class="button radius" id="gift-modal">Gift Certificate</a>
-
-          <div id="giftModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <h2 id="modalTitle">Gift Certificates</h2>
-            <p class="lead">Available for all Occasions</p>
-            <p>​They can be purchased ​at the spa or​ via telephone​.​ Please note that they are non-refundable​.</p>
-            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-          </div>
         </div>
       </div>
     </div>
