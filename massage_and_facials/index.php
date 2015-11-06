@@ -103,7 +103,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body and Skin</i></span></a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
