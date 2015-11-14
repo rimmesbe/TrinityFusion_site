@@ -209,6 +209,7 @@
       </div>
     </div>
     <hr />
+
     <!-- facials section -->
     <div class="row" id="facial">
       <div class="large-8 medium-8 medium-push-4 columns">
@@ -319,13 +320,13 @@
       <div class="large-4 medium-4 medium-pull-8 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img sm-margin-top">
         <div class="panel callout radius margin-top">
-          <h4 class="center-text">Add-on to your facial treatment:</h4>
+          <h4 class="center-text">Add-on Enhancements:</h4>
           <ul>
-            <li>Foot Reflexology--$40</li>
-            <li>Hand Massage--$40</li>
-            <li>Back Facial--$50</li>
-            <li>Microcurrent lifting facial--$40</li>
-            <li>High Frequency--$40</li>
+            <li>Enzyme--$25</li>
+            <li>Peel--$40</li>
+            <li>Foot & Hand Reflexology--$45</li>
+            <li>Eye Treatment--$30</li>
+            <li>Back Scrub--$25</li>
           </ul>
         </div>
       </div>
