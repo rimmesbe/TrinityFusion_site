@@ -330,6 +330,7 @@
           <ul>
             <li>Enzyme--$25</li>
             <li>Peel--$40</li>
+            <li>Microcurrent Lifting--$40</li>
             <li>Foot & Hand Reflexology--$45</li>
             <li>Eye Treatment--$30</li>
             <li>Back Scrub--$25</li>
