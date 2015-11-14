@@ -308,15 +308,16 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel7a" class="last-list-item facial-list">Restorative Skin Back Treatment</a>
+            <a href="#panel7a" class="last-list-item facial-list">Polish and Glow Back Facial</a>
             <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
-                  <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
+                  <p>This hard to reach area will get the treatment it deserves. The back is deeply cleansed and exfoliated with lemon citrus body scrub increasing circulation for healthy skin. Warm compresses are applied and extractions are performed if necessary. Antioxidant serums are infused along with a conditioning mask for a hydrating back facial. Finishing this treatment is a relaxing back massage for a refreshing experience.</p>
                 </div>
                 <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
-                  <p class="center-text">$90</p>
+                  <p class="center-text">$85</p>
+                  <p class="center-text">50 minute therapy</p>
                 </div>
               </div>
             </div>
