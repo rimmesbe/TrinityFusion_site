@@ -186,7 +186,7 @@
         </div>
         <div class="row">
           <div class="large-6 medium-6 columns">
-            <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $85.00 <br> 80 minutes: $125.00"><strong class="purple-text-shadow">In-house Rates</strong></span></h5>
+            <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $90.00 <br> 80 minutes: $125.00"><strong class="purple-text-shadow">In-house Rates</strong></span></h5>
             <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $120.00 <br> 80 minutes: $170.00"><strong class="purple-text-shadow">House Call Rates</strong></span></h5>
           </div>
           <div class="large-6 medium-6 columns">
