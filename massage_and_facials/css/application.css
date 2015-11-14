@@ -6,6 +6,10 @@ p, li, a {
   font-size: 1.2rem;
 }
 
+p, li, h3 {
+  color: #65482A;
+}
+
 ul{
     list-style-position: inside;
 }
@@ -70,14 +74,16 @@ a.button.border-button {
 }
 
 .teal-color {
-  color: #C3CC66;
+  color: #D1A3D3;
 }
 
 .light-purple{
   background-color: #DCB7DE;
 }
 
-
+.brown {
+  color: #65482A;
+}
 
 .section-title-font {
   font-weight: 400;
@@ -206,7 +212,7 @@ a.button.border-button {
   }
 
   .title-text {
-    text-shadow: 2px 2px #C3CC66;
+    text-shadow: 2px 2px #65482A;
     font-weight: 400;
     color: #D1A3D3;
     font-family: "Cinzel Decorative", serif;
@@ -244,7 +250,7 @@ a.button.border-button {
   }
 
   .title-text {
-    text-shadow: 2px 2px #C3CC66;
+    text-shadow: 2px 2px #65482A;
     font-size: 4em;
     font-weight: 400;
     color: #D1A3D3;
@@ -259,7 +265,7 @@ a.button.border-button {
 
 @media only screen and (min-width: 64.0625em) {
   .title-text {
-    text-shadow: 2px 2px #C3CC66;
+    text-shadow: 2px 2px #65482A;
     font-size: 6em;
     font-weight: 400;
     color: #D1A3D3;

@@ -145,7 +145,7 @@
 
     <div class="row no-margin">
       <div class="large-12 columns">
-        <h3 class="center-text"><i>Phone Number: 631-287-3527</i>&nbsp; &nbsp; &nbsp;<i>Location: Naples, FL and The Hamptons, NY</i></h3>
+        <h3 class="center-text brown"><i>Phone Number: 631-287-3527</i>&nbsp; &nbsp; &nbsp;<i>Location: Naples, FL and The Hamptons, NY</i></h3>
       </div>
     </div>
 
@@ -219,7 +219,7 @@
     <!-- facials section -->
     <div class="row" id="facial">
       <div class="large-8 medium-8 medium-push-4 columns">
-        <h1 class="teal-color section-title-font">Facials</h1>
+        <h1 class="teal-color section-title-font center-text">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1a" class="first-list-item facial-list">Infuse Antioxidant Glow Facial</a>
@@ -383,6 +383,7 @@
       </div>
     </div>
     <hr />
+
     <!-- spa party section -->
     <div class="row section-margins margin-left" id="spa-party">
       <div class="large-8 medium-8 columns">
@@ -401,7 +402,7 @@
       <div class="large-3 medium-3 columns">
         <p class="center-text no-margin" id="party-panel-left"><i>We require a minimum of 4 people to hold a spa party, with a maximum of 12 attendees.</i></p>
         <a href="#contact" class="medium radius secondary button no-margin border-button" style="width: 100%;">Contact for rates</a>
-        <a href="#" data-reveal-id="spaPolicy" class="medium radius secondary button no-margin border-button">Spa Party Cancelation Policy</a>
+        <a href="#" data-reveal-id="spaPolicy" class="medium radius secondary button no-margin border-button" style="width: 100%;">Spa Party Cancelation Policy</a>
         <div id="spaPolicy" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
           <h3 id="modalTitle">Spa Party Cancelation Policy</h3>
           <p>Spa appointments have been especially reserved for you. If you need to cancel, please do so with a minimum of <strong>24 hours notice</strong>. For a <strong>bridal party</strong> we ask that you please do so with <strong>48 hours notice</strong>. Failure to do so will result in a <strong>50% charge</strong> of your service.</p>
