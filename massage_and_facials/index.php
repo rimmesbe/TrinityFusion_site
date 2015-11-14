@@ -143,6 +143,12 @@
       </div>
     </div>
 
+    <div class="row no-margin">
+      <div class="large-12 columns">
+        <h3 class="center-text"><i>Phone Number: 631-287-3527</i>&nbsp; &nbsp; &nbsp;<i>Location: Naples, FL and The Hamptons, NY</i></h3>
+      </div>
+    </div>
+
     <!-- massage section -->
     <div class="row section-margins" style="margin-top: 20px;" id="massage">
       <div class="large-9 medium-9 columns">
@@ -180,7 +186,7 @@
         </div>
         <div class="row">
           <div class="large-6 medium-6 columns">
-            <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $85.00 <br> 80 minutes: $125.00"><strong class="purple-text-shadow">In-house Rates</strong></span></h5>
+            <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $90.00 <br> 80 minutes: $125.00"><strong class="purple-text-shadow">In-house Rates</strong></span></h5>
             <h5><span data-tooltip aria-haspopup="true" class="has-tip" title="60 minutes: $120.00 <br> 80 minutes: $170.00"><strong class="purple-text-shadow">House Call Rates</strong></span></h5>
           </div>
           <div class="large-6 medium-6 columns">
@@ -209,6 +215,7 @@
       </div>
     </div>
     <hr />
+
     <!-- facials section -->
     <div class="row" id="facial">
       <div class="large-8 medium-8 medium-push-4 columns">
@@ -301,15 +308,16 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel7a" class="last-list-item facial-list">Restorative Skin Back Treatment</a>
+            <a href="#panel7a" class="last-list-item facial-list">Polish and Glow Back Facial</a>
             <div id="panel7a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
-                  <p>Restorative treatment for the skin of the back. Includes skin analysis, steam, deep pore cleansing, exfoliation and mask. Back facials are very similar to regular facials that start with a steam, continue with extractions and deep exfoliation leaving your skin silky and blemish free. Finish with a nourishing and moisturizing massage.</p>
+                  <p>This hard to reach area will get the treatment it deserves. The back is deeply cleansed and exfoliated with lemon citrus body scrub increasing circulation for healthy skin. Warm compresses are applied and extractions are performed if necessary. Antioxidant serums are infused along with a conditioning mask for a hydrating back facial. Finishing this treatment is a relaxing back massage for a refreshing experience.</p>
                 </div>
                 <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
                   <h4 class="center-text">Price:</h4>
-                  <p class="center-text">$90</p>
+                  <p class="center-text">$85</p>
+                  <p class="center-text">50 minute therapy</p>
                 </div>
               </div>
             </div>
@@ -319,13 +327,14 @@
       <div class="large-4 medium-4 medium-pull-8 columns">
         <img src="img/facial_mask.jpg" alt="facial mask" class="section-img sm-margin-top">
         <div class="panel callout radius margin-top">
-          <h4 class="center-text">Add-on to your facial treatment:</h4>
+          <h4 class="center-text">Add-on Enhancements:</h4>
           <ul>
-            <li>Foot Reflexology--$40</li>
-            <li>Hand Massage--$40</li>
-            <li>Back Facial--$50</li>
-            <li>Microcurrent lifting facial--$40</li>
-            <li>High Frequency--$40</li>
+            <li>Enzyme--$25</li>
+            <li>Peel--$40</li>
+            <li>Microcurrent Lifting--$40</li>
+            <li>Foot & Hand Reflexology--$45</li>
+            <li>Eye Treatment--$30</li>
+            <li>Back Scrub--$25</li>
           </ul>
         </div>
       </div>
@@ -469,42 +478,44 @@
         <ul class="stack button-group">
           <li><a href="#" data-reveal-id="question1" class="button first-list-item">Where will my massage or bodywork session take place?</a></li>
           <div id="question1" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">Where will my massage or bodywork session take place?</p>
-            <p>In the comfort of your home. You may like to have nice music playing and a calm, private atmosphere is helpful to relax.</p>
+            <h4>Where will my massage or bodywork session take place?</h4>
+            <p>In the office or in the comfort of your own home.</p>
+            <p>In-house rates are: 60 minutes-$90 or 80 minutes-$125</p>
+            <p>House-call-rates: 60 minutes-$120 or 80 minutes-$170</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
           <li><a href="#" data-reveal-id="question2" class="button">Must I be completely undressed? </a></li>
           <div id="question2" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">Must I be completely undressed? </p>
+            <h4>Must I be completely undressed? </h4>
             <p>Most massage and bodywork techniques are traditionally performed with the client unclothed; however, it is entirely up to you what you want to wear. You should undress to your level of comfort. You will be properly draped during the entire session.</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
           <li><a href="#" data-reveal-id="question4" class="button">Will the practitioner be present when I disrobe?</a></li>
           <div id="question4" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">Will the practitioner be present when I disrobe?</p>
+            <h4>Will the practitioner be present when I disrobe?</h4>
             <p>The practitioner will leave the room while you undress, relax onto the table, and cover yourself with a clean sheet or towel.</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
           <li><a href="#" data-reveal-id="question5" class="button">Will I be covered during the session?</a></li>
           <div id="question5" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">Will I be covered during the session?</p>
+            <h4>Will I be covered during the session?</h4>
             <p>You will be properly draped at all times to keep you warm and comfortable. Only the area being worked on will be exposed. </p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
           <li><a href="#" data-reveal-id="question6" class="button">What parts of my body will be massaged?</a></li>
           <div id="question6" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">What parts of my body will be massaged?</p>
+            <h4>What parts of my body will be massaged?</h4>
             <p>A typical full-body session will include work on your back, arms, legs, feet, hands, head, neck, and shoulders. </p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
 
           <li><a href="#" data-reveal-id="question7" class="button last-list-item">Are there any medical conditions that would make massage or bodywork inadvisable?</a></li>
           <div id="question7" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <p class="lead">Are there any medical conditions that would make massage or bodywork inadvisable?</p>
+            <h4>Are there any medical conditions that would make massage or bodywork inadvisable?</h4>
             <p>Yes. That's why it's imperative that, before you begin your session, the practitioner asks general health questions. It is very important that you inform the practitioner of any health problems or medications you are taking. If you are under a doctor's care, it is strongly advised that you receive a written recommendation for massage or bodywork prior to any session. Depending on the condition, approval from your doctor may be required.</p>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
