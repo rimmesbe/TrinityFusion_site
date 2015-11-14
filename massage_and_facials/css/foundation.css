@@ -3549,10 +3549,10 @@ ul.pagination {
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
       background: #D1A3D3;
-      color: #222222; }
+      color: #65482A; }
     .accordion .accordion-navigation > a, .accordion dd > a {
       background: #C3CC66;
-      color: #222222;
+      color: #65482A;
       display: block;
       font-family: "Neuton", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1.2rem;

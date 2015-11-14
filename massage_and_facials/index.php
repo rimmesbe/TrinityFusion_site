@@ -219,7 +219,7 @@
     <!-- facials section -->
     <div class="row" id="facial">
       <div class="large-8 medium-8 medium-push-4 columns">
-        <h1 class="teal-color section-title-font">Facials</h1>
+        <h1 class="teal-color section-title-font center-text">Facials</h1>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1a" class="first-list-item facial-list">Infuse Antioxidant Glow Facial</a>
