@@ -1172,11 +1172,11 @@ button, .button {
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
-    color: #333333; }
+    color: #65482A; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #b9b9b9; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; }
+      color: #65482A; }
   button.success, .button.success {
     background-color: #43AC6A;
     border-color: #368a55;
@@ -2748,7 +2748,7 @@ meta.foundation-mq-topbar {
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-    color: #333333; }
+    color: #65482A; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625rem; }
@@ -2762,13 +2762,13 @@ meta.foundation-mq-topbar {
     margin-bottom: 1.25rem;
     padding: 1.25rem;
     background: #D1A3D3;
-    color: #333333; }
+    color: #65482A; }
     .panel.callout > :first-child {
       margin-top: 0; }
     .panel.callout > :last-child {
       margin-bottom: 0; }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
-      color: #333333; }
+      color: #65482A; }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
       line-height: 1;
       margin-bottom: 0.625rem; }

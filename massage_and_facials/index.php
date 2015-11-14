@@ -145,7 +145,7 @@
 
     <div class="row no-margin">
       <div class="large-12 columns">
-        <h3 class="center-text"><i>Phone Number: 631-287-3527</i>&nbsp; &nbsp; &nbsp;<i>Location: Naples, FL and The Hamptons, NY</i></h3>
+        <h3 class="center-text brown"><i>Phone Number: 631-287-3527</i>&nbsp; &nbsp; &nbsp;<i>Location: Naples, FL and The Hamptons, NY</i></h3>
       </div>
     </div>
 
