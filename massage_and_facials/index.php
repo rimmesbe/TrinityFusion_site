@@ -572,6 +572,7 @@
     </div>
     <hr />
 
+    <!-- Gift Certificate Section -->
     <div class="row" id="Gift-Certificates">
         <div class="row">
           <div class="large-12 medium-12 columns">
@@ -640,6 +641,15 @@
       </div>
     </div>
     <hr />
+
+    <!-- footer -->
+    <div class="row" id="footer">
+      <div class="large-12 medium-12 columns margin-top">
+        <h1 class="center-text" id="footer-title">Thanks for visiting</h1>
+        <hr />
+        <p class="center-text">© Copyright 2015 Oasis Mind Body and Skin, All right reserved.
+      </div>
+    </div>
 
     <script>
       $(document).foundation();
