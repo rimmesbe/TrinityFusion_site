@@ -113,15 +113,27 @@ a.button.border-button {
   text-shadow: 0 0 3px #D94ADF;
 }
 
+.curved-radius{
+  border-radius: 15px;
+}
+
+.background-purple{
+  background-color: #D1A3D3;
+}
+
+.background-green{
+  background-color: #C3CC66;
+}
+
+.background-biege{
+  background-color: #EFEDBB;
+}
+
 #luxury-packages {
   border: 1px solid #D1A3D3;
   border-radius: 15px;
   padding-bottom: 2%;
 }
-
-
-
-
 
 #special-p {
   padding: 10px;

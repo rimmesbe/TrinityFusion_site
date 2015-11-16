@@ -579,10 +579,10 @@
           </div>
         </div>
       <div class="large-4 medium-4 columns">
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
           <input type="hidden" name="cmd" value="_s-xclick">
-          <table>
-          <tr><td><input type="hidden" name="on0" value="Massage">Massage</td></tr><tr><td><select name="os0">
+          <table class="curved-radius background-purple">
+          <tr><td><input type="hidden" name="on0" value="Massage">Massage</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
             <option value="1-hour In-house massge">1-hour In-house massge $90.00 USD</option>
             <option value="80-minute In-house massage">80-minute In-house massage $120.00 USD</option>
             <option value="1-hour house-call massage">1-hour house-call massage $120.00 USD</option>
@@ -597,10 +597,10 @@
           </form>
       </div>
       <div class="large-4 medium-4 columns">
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
           <input type="hidden" name="cmd" value="_s-xclick">
-          <table>
-          <tr><td><input type="hidden" name="on0" value="Facials">Facials</td></tr><tr><td><select name="os0">
+          <table class="curved-radius background-purple">
+          <tr><td><input type="hidden" name="on0" value="Facials">Facials</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
             <option value="Infuse Anti-Oxidant Glow Facial">Infuse Anti-Oxidant Glow Facial $125.00 USD</option>
             <option value="Signature Anti-Aging with High Frequency">Signature Anti-Aging with High Frequency $140.00 USD</option>
             <option value="Corrective Facial for Mature Skin">Corrective Facial for Mature Skin $110.00 USD</option>
@@ -618,10 +618,10 @@
           </form>
       </div>
       <div class="large-4 medium-4 columns">
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
           <input type="hidden" name="cmd" value="_s-xclick">
-          <table>
-          <tr><td><input type="hidden" name="on0" value="Luxury Packages">Luxury Packages</td></tr><tr><td><select name="os0">
+          <table class="curved-radius background-purple">
+          <tr><td><input type="hidden" name="on0" value="Luxury Packages">Luxury Packages</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
             <option value="A Touch of Nirvana">A Touch of Nirvana $190.00 USD</option>
             <option value="The Total Indulgence Therapy">The Total Indulgence Therapy $190.00 USD</option>
             <option value="Infuse Anti-Oxidant Glow Facial 4-package">Infuse Anti-Oxidant Glow Facial 4-package $420.00 USD</option>
