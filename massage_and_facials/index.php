@@ -117,6 +117,7 @@
                 <li><a href="#spa-party" class="tab-text scroll">Spa Party</a></li>
               </ul>
             </li>
+            <li><a href="#gift-certificates" class="light-purple scroll">GIFT CERTIFICATES</a></li>
             <li><a href="#schedule" class="light-purple scroll">SCHEDULE</a></li>
             <li class="has-dropdown">
               <a href="#" class="light-purple">ABOUT</a>
@@ -425,7 +426,7 @@
     <hr />
 
     <!-- Gift Certificate Section -->
-    <div class="row" id="Gift-Certificates">
+    <div class="row" id="gift-certificates">
         <div class="row">
           <div class="large-12 medium-12 columns">
             <h1 class="teal-color section-title-font">Gift Certificates</h1>
