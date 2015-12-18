@@ -103,7 +103,7 @@
     <div class="fixed">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll">Oasis <span style="font-size: 1.5rem;"><i>Mind Body Skin</i></span></a></h1></li>
+          <li class="name"><h1 id="title"><a href="#home" id="home-color" class="scroll brown-text-shadow">Oasis <span class="brown-text-shadow" style="font-size: 1.5rem;"><i>Mind Body Skin</i></span></a></h1></li>
           <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
         </ul>
 
@@ -237,11 +237,11 @@
             </div>
           </li>
           <li class="accordion-navigation">
-            <a href="#panel2a" class="facial-list">Signature Anti-Aging Facial with High Frequency</a>
+            <a href="#panel2a" class="facial-list">Signature Anti-Aging Facial</a>
             <div id="panel2a" class="content">
               <div class="row" data-equalizer>
                 <div class="large-9 medium-9 columns panel light-purple" data-equalizer-watch>
-                  <p>Improve skin's elasticity and collagen production, decrease fine lines and prevent appearance of new ones. Includes face, décolleté, neck and shoulder massage, cleanse, lactic acid peel, amino peptide serum with mask, eye lifting cream and high frequency machine for toning and lifting.
+                  <p>Improve skin's elasticity and collagen production, decrease fine lines and prevent appearance of new ones. Includes face, décolleté, neck and shoulder massage, cleanse, lactic acid peel, amino peptide serum with mask, eye lifting cream for toning and lifting.
                   </p>
                 </div>
                 <div class="large-3 medium-3 columns panel light-purple" data-equalizer-watch>
@@ -456,7 +456,7 @@
           <table class="curved-radius background-purple">
           <tr><td><input type="hidden" name="on0" value="Facials">Facials</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
             <option value="Infuse Anti-Oxidant Glow Facial">Infuse Anti-Oxidant Glow Facial $125.00 USD</option>
-            <option value="Signature Anti-Aging with High Frequency">Signature Anti-Aging with High Frequency $140.00 USD</option>
+            <option value="Signature Anti-Aging Facial">Signature Anti-Aging Facial $140.00 USD</option>
             <option value="Corrective Facial for Mature Skin">Corrective Facial for Mature Skin $110.00 USD</option>
             <option value="Rehydration Facial">Rehydration Facial $100.00 USD</option>
             <option value="Retexture(exfoliation) Facial">Retexture(exfoliation) Facial $110.00 USD</option>
@@ -479,7 +479,7 @@
             <option value="A Touch of Nirvana">A Touch of Nirvana $190.00 USD</option>
             <option value="The Total Indulgence Therapy">The Total Indulgence Therapy $190.00 USD</option>
             <option value="Infuse Anti-Oxidant Glow Facial 4-package">Infuse Anti-Oxidant Glow Facial 4-package $420.00 USD</option>
-            <option value="Signature Anti-Aging Facial with High Frequency 4-package">Signature Anti-Aging Facial with High Frequency 4-package $500.00 USD</option>
+            <option value="Signature Anti-Aging Facial 4-package">Signature Anti-Aging Facial 4-package $500.00 USD</option>
             <option value="Corrective Facial for Mature Skin 4-package">Corrective Facial for Mature Skin 4-package $380.00 USD</option>
             <option value="Rehydration Facial 4-package">Rehydration Facial 4-package $360.00 USD</option>
             <option value="Retexture(Exfoliation) 4-package">Retexture(Exfoliation) 4-package $400.00 USD</option>

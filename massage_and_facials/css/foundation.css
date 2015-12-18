@@ -1594,7 +1594,7 @@ select {
   select.radius {
     border-radius: 3px; }
   select:focus {
-    background-color: #C3CC66;
+    background-color: #8ED04A;
     border-color: #999999; }
   select:disabled {
     background-color: #DDDDDD;
@@ -2741,7 +2741,7 @@ meta.foundation-mq-topbar {
   border-radius: 25px;
   margin-bottom: 0rem;
   padding: 1.25rem;
-  background: #C3CC66;
+  background: #8ED04A;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -3551,14 +3551,14 @@ ul.pagination {
       background: #D1A3D3;
       color: #65482A; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #C3CC66;
+      background: #8ED04A;
       color: #65482A;
       display: block;
       font-family: "Neuton", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1.2rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #A8B05C; }
+        background: #C3cc66; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
       padding: 0.9375rem;

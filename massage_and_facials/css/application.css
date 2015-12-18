@@ -66,7 +66,7 @@ body.f-topbar-fixed {
 
 a.button.border-button {
   background-color: #f2f2f2;
-  border: 1px solid #C3CC66;
+  border: 1px solid #8ED04A;
 }
 
 .fixed .top-bar .light-purple {
@@ -88,6 +88,7 @@ a.button.border-button {
 .section-title-font {
   font-weight: 400;
   font-family: "Cinzel", serif;
+  text-shadow: 1px 1px #65482A;
 }
 
 .cinzel-font {
@@ -122,11 +123,15 @@ a.button.border-button {
 }
 
 .background-green{
-  background-color: #C3CC66;
+  background-color: #8ED04A;
 }
 
 .background-biege{
   background-color: #EFEDBB;
+}
+
+.brown-text-shadow {
+  text-shadow: 1px 1px #65482A;
 }
 
 #luxury-packages {
@@ -161,24 +166,24 @@ a.button.border-button {
 
 #form-submit {
   border-radius: 25%;
-  background-color: #C3CC66;
+  background-color: #8ED04A;
   width: 20%;
   height: 3em;
 }
 
 #form-submit:hover {
-  background-color: #A8B05C;
+  background-color: #C3cc66;
 }
 
 #gift-modal {
   width: 100%;
   margin: auto;
-  background-color: #C3CC66;
+  background-color: #8ED04A;
   color: black;
 }
 
 #gift-modal:hover {
-  background-color: #A8B05C;
+  background-color: #C3cc66;
 }
 
 #home-color {
