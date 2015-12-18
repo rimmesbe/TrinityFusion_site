@@ -342,7 +342,7 @@
     </div>
     <div class="row section-margins margin-top">
       <div class="large-8 medium-8 columns" id="luxury-packages">
-        <h3 class="teal-color cinzel-font">Luxury Packages</h3>
+        <h3 class="teal-color cinzel-font brown-text-shadow">Luxury Packages</h3>
         <ul class="accordion" data-accordion>
           <li class="accordion-navigation">
             <a href="#panel1b" class="first-list-item facial-list">A Touch of Nirvana</a>
