@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
   $sent = false;
   $hasError = false;
 
@@ -49,7 +49,7 @@
       }
     }
   }
-?>
+?> -->
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -433,7 +433,7 @@
           </div>
         </div>
       <div class="large-4 medium-4 columns">
-        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius"  >
           <input type="hidden" name="cmd" value="_s-xclick">
           <table class="curved-radius background-purple">
           <tr><td><input type="hidden" name="on0" value="Massage">Massage</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
@@ -451,7 +451,7 @@
           </form>
       </div>
       <div class="large-4 medium-4 columns">
-        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius">
           <input type="hidden" name="cmd" value="_s-xclick">
           <table class="curved-radius background-purple">
           <tr><td><input type="hidden" name="on0" value="Facials">Facials</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
@@ -472,7 +472,7 @@
           </form>
       </div>
       <div class="large-4 medium-4 columns">
-        <form class="curved-radius" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <form class="curved-radius" >
           <input type="hidden" name="cmd" value="_s-xclick">
           <table class="curved-radius background-purple">
           <tr><td><input type="hidden" name="on0" value="Luxury Packages">Luxury Packages</td></tr><tr><td class="curved-radius"><select name="os0" class="background-green curved-radius">
@@ -625,7 +625,7 @@
         <div id="shadow-form">
           <div class="contact-div" style="margin: 1em;">
             <form id="contactform" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" novalidate>
-              <?php
+              <!-- <?php
                 if($sent === true) {
                   echo "<h2 class='success'>Thanks, your message has been sent!</h2>";
                 }elseif($hasError == true){
@@ -635,10 +635,12 @@
                   }
                   echo "</ul>";
                 }
-              ?>
-              <input type="email" name="email" value="<?php echo (isset($email) ? $email : ""); ?>" placeholder="Your email">
-              <input type="text" name="subject" value="<?php echo (isset($subject) ? $subject : ""); ?>" placeholder="Subject">
-              <textarea rows="5" name="message" placeholder="Message"><?php echo (isset($message) ? $message : ""); ?></textarea>
+              ?> -->
+              <input type="email" name="email" value="" placeholder="Your email">
+              <input type="text" name="subject" value="" placeholder="Subject">
+              <textarea rows="5" name="message" placeholder="Message">
+
+              </textarea>
               <input type="submit" name="submitform" value="Send" id="form-submit">
             </form>
           </div> <!-- contact div -->
