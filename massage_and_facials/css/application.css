@@ -1,3 +1,15 @@
+p, li, a, h2, h3, h4, h5, h6 {
+  font-family: "Neuton", serif;
+}
+
+p, li, a {
+  font-size: 1.2rem;
+}
+
+p, li, h3 {
+  color: #65482A;
+}
+
 ul{
     list-style-position: inside;
 }
@@ -48,28 +60,84 @@ body.f-topbar-fixed {
   margin-top: 20px;
 }
 
+.form-errors {
+  color: red;
+}
+
 a.button.border-button {
   background-color: #f2f2f2;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #8ED04A;
 }
 
-#main-img-div {
-  background-image: url("../img/new_facial_flower.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0%;
-  max-width: 100%;
-  width: 100%;
-  height: 0;
-  padding-bottom: 52.7918%;
+.fixed .top-bar .light-purple {
+  color: #D1A3D3;
 }
 
-#title {
-  height: 90%;
-  width:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+.teal-color {
+  color: #D1A3D3;
+}
+
+.light-purple{
+  background-color: #DCB7DE;
+}
+
+.brown {
+  color: #65482A;
+}
+
+.section-title-font {
+  font-weight: 400;
+  font-family: "Cinzel", serif;
+  text-shadow: 1px 1px #65482A;
+}
+
+.cinzel-font {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+
+.first-list-item {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.last-list-item {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.facial-list {
+  text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FAD605;
+}
+
+.purple-text-shadow {
+  text-shadow: 0 0 3px #D94ADF;
+}
+
+.curved-radius{
+  border-radius: 15px;
+}
+
+.background-purple{
+  background-color: #D1A3D3;
+}
+
+.background-green{
+  background-color: #8ED04A;
+}
+
+.background-biege{
+  background-color: #EFEDBB;
+}
+
+.brown-text-shadow {
+  text-shadow: 1px 1px #65482A;
+}
+
+#luxury-packages {
+  border: 1px solid #D1A3D3;
+  border-radius: 15px;
+  padding-bottom: 2%;
 }
 
 #special-p {
@@ -80,4 +148,155 @@ a.button.border-button {
 #party-panel-left {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#headshot-div {
+  position: relative;
+}
+
+#headshot-h3 {
+  /*position: absolute;*/
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: #D1A3D3;
+  font-family:"Tangerine", serif;
+  font-weight: 700;
+}
+
+#form-submit {
+  border-radius: 25%;
+  background-color: #8ED04A;
+  width: 20%;
+  height: 3em;
+}
+
+#form-submit:hover {
+  background-color: #C3cc66;
+}
+
+#gift-modal {
+  width: 100%;
+  margin: auto;
+  background-color: #8ED04A;
+  color: black;
+}
+
+#gift-modal:hover {
+  background-color: #C3cc66;
+}
+
+#home-color {
+  color: #D1A3D3;
+}
+
+#shadow-form {
+  border-radius: 1em;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: #EFEDBB;
+}
+
+#title-div {
+  margin-top: 10%;
+}
+
+#footer-title{
+  font-family: "Cinzel Decorative", serif;
+  color: #D1A3D3;
+  text-shadow: 1px 1px #65482A;
+}
+
+
+@keyframes title {
+  0%  {color: #D1A3D3; opacity: 1; text-shadow: none;}
+  1%  {color: white; opacity: 0; text-shadow: none;}
+  40% {color: white; opacity: .5; text-shadow: none;}
+  65% {color: white; opacity: 1; text-shadow: none;}
+  75% {color: #D1A3D3; opacity: .5; text-shadow: none;}
+  85% {color: #D1A3D3; opacity: .75; text-shadow: none;}
+  95% {color: #D1A3D3; opacity: 1; text-shadow: none;}
+}
+
+@media only screen and (max-width: 40.0624em) {
+  #title {
+    color: #DCB7DE;
+  }
+
+  #main-img-div {
+    background-image: url("../img/new_facial_flower.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10%;
+    max-width: 100%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 52.7918%;
+  }
+
+  .title-text {
+    text-shadow: 2px 2px #65482A;
+    font-weight: 400;
+    color: #D1A3D3;
+    font-family: "Cinzel Decorative", serif;
+    opacity: 1;
+    animation-name: title;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+  }
+
+  .sm-margin-top {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+  #title {
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #DCB7DE;
+  }
+
+  #main-img-div {
+    background-image: url("../img/new_facial_flower.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0%;
+    max-width: 100%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 52.7918%;
+  }
+
+  .title-text {
+    text-shadow: 2px 2px #65482A;
+    font-size: 4em;
+    font-weight: 400;
+    color: #D1A3D3;
+    font-family: "Cinzel Decorative", serif;
+    opacity: 1;
+    animation-name: title;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+  }
+
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .title-text {
+    text-shadow: 2px 2px #65482A;
+    font-size: 6em;
+    font-weight: 400;
+    color: #D1A3D3;
+    font-family: "Cinzel Decorative", serif;
+    opacity: 1;
+    animation-name: title;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+  }
+
 }
